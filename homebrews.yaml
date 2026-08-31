@@ -1,0 +1,119 @@
+format_version: 1
+
+sources:
+  - id: atariage-2600-2026
+    name: "Atari 2600 Homebrew Games 2026"
+    platform: "Atari 2600"
+    urls:
+      - "https://forums.atariage.com/topic/387079-atari-2600-homebrew-games-releasedcompletedwip-in-2026/"
+
+games:
+  - title: "1001 Nights"
+    platform: "Atari 2600"
+
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+
+      - name: "Nancy Johnson"
+        roles:
+          - "Boxart"
+
+    rom_size: 32768
+    players:
+      - 1
+
+    accessories:
+      required:
+        - "Joystick"
+      optional: []
+
+    status: completed
+    physical_release: true
+
+    urls:
+      atariage: "https://forums.atariage.com/topic/388170-1001-nights-new-homebrew-based-on-a-classic-arcade-game/"
+    history:
+      - date: "2026-02-20"
+        status: wip
+
+      - date: "2026-03-11"
+        status: completed
+
+      - date: "2026-05-05"
+        status: physical_release
+
+  - title: "Amoeba Jump \"Plus\" Edition"
+    platform: "Atari 2600"
+    publishers:
+      - "Dionoid Game Studios"
+
+    participants:
+      - name: "Dion Olsthoorn"
+        handle: "Dionoid"
+        roles:
+          - "Developer"
+
+      - name: "Nathan Strum"
+        handle: "Nathan Strum"
+        roles:
+          - "Packaging"
+
+    rom_size: 4096
+    players:
+      - 1
+      - 2
+
+    accessories:
+      required:
+        - "Joystick"
+
+      optional:
+        - "AtariVox"
+        - "SaveKey"
+    status: completed
+    physical_release: true
+
+    urls:
+      atariage: "https://forums.atariage.com/topic/390474-amoeba-jump-tower-of-rubble-plus-editions-for-europe/"
+    history:
+      - date: "2026-02-20"
+        status: wip
+
+      - date: "2026-05-25"
+        status: completed
+
+      - date: "2026-05-25"
+        status: physical_release
+
+  - title: "Awass"
+    platform: "Atari 7800"
+
+    participants:
+      - name: "Inufuto"
+        handle: "Inufuto"
+        roles:
+          - "Developer"
+
+    rom_size: 8192
+    players:
+      - 1
+
+    accessories:
+      required:
+        - "Joystick"
+      optional: []
+
+    status: completed
+    physical_release: true
+
+    urls:
+      homepage: "http://inufuto.web.fc2.com/8bit/awass/"
+    history:
+      - date: "2026-01-20"
+        status: completed
+
+      - date: " 2026-01-20"
+        status: physical_release
