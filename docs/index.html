@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atari Homebrew Games Registry</title>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <style>
+    :root {
+      --bg-base:#0a0d14; --bg-surface:#121824; --bg-card:#182234; --bg-hover:#223049;
+      --border-color:#2a3b5c; --border-subtle:#1e2a42;
+      --text-primary:#e6edf3; --text-secondary:#8b9bb4; --text-muted:#57657a;
+      --accent:#00ffff; --green:#00ff9f; --yellow:#ffd166; --pink:#f368e0;
+      --font-sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      --font-mono:"SF Mono","Cascadia Code","Fira Code",Menlo,Monaco,Consolas,monospace;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg-base);color:var(--text-primary);font-family:var(--font-sans);line-height:1.5;padding:24px 16px;min-height:100vh}
+    .container{max-width:1400px;margin:0 auto}
+    header{border-bottom:1px solid var(--border-color);padding-bottom:24px;margin-bottom:24px}
+    .header-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px}
+    h1{font-size:1.75rem;font-weight:800;letter-spacing:-.02em;color:#fff;display:flex;align-items:center;gap:10px}
+    .title-area p{color:var(--text-secondary);font-size:.95rem;margin-top:4px}
+    .badge-live{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;font-weight:600;text-transform:uppercase;padding:3px 8px;border-radius:9999px;background:rgba(0,255,159,.15);color:var(--green);border:1px solid rgba(0,255,159,.3);font-family:var(--font-mono)}
+    .badge-live:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green)}
+    .header-actions{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:6px;font-size:.875rem;font-weight:600;text-decoration:none;border:1px solid transparent}
+    .btn-primary{background:#2563eb;color:#fff}.btn-primary:hover{background:#1d4ed8}
+    .stats-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:24px}
+    .stat-card{background:var(--bg-surface);border:1px solid var(--border-subtle);border-radius:8px;padding:14px 18px}
+    .stat-label{font-size:.75rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em}
+    .stat-value{font-size:1.4rem;font-weight:700;font-family:var(--font-mono);margin-top:4px;color:#fff}
+    .toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:16px}
+    .search-box{flex:1;min-width:280px}.search-input{width:100%;background:var(--bg-surface);border:1px solid var(--border-color);border-radius:6px;padding:10px 14px;font-size:.9rem;color:#fff;outline:none}
+    .search-input:focus{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+    .filter-group{display:flex;gap:8px;flex-wrap:wrap}.select-control{background:var(--bg-surface);border:1px solid var(--border-color);border-radius:6px;padding:9px 12px;font-size:.85rem;color:var(--text-primary);outline:none;cursor:pointer}
+    .table-container{background:var(--bg-surface);border:1px solid var(--border-color);border-radius:8px;overflow-x:auto}
+    table{width:100%;border-collapse:collapse;text-align:left;font-size:.875rem}
+    th{background:var(--bg-card);color:var(--text-secondary);font-weight:700;text-transform:uppercase;font-size:.75rem;letter-spacing:.05em;padding:12px 16px;border-bottom:1px solid var(--border-color);white-space:nowrap}
+    td{padding:12px 16px;border-bottom:1px solid var(--border-subtle);vertical-align:top}tr:last-child td{border-bottom:none}tr:hover td{background:rgba(255,255,255,.04)}
+    .title-cell{font-weight:600;color:#fff;min-width:220px}.title-cell a{color:#fff;text-decoration:none}.title-cell a:hover{color:var(--accent);text-decoration:underline}
+    .participants-cell{color:var(--text-secondary);min-width:180px}.platform-cell{min-width:150px}.rom-cell{font-family:var(--font-mono);white-space:nowrap;color:var(--text-secondary)}.status-cell{white-space:nowrap}
+    .tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.75rem;font-weight:600;font-family:var(--font-mono);text-transform:uppercase}
+    .tag-completed{background:rgba(0,255,255,.1);color:var(--accent);border:1px solid rgba(0,255,255,.3)}
+    .tag-wip{background:rgba(255,209,102,.1);color:var(--yellow);border:1px solid rgba(255,209,102,.3)}
+    .tag-released{background:rgba(0,255,159,.1);color:var(--green);border:1px solid rgba(0,255,159,.3)}
+    .tag-other{background:rgba(243,104,224,.1);color:var(--pink);border:1px solid rgba(243,104,224,.3)}
+    .platform-list{display:flex;flex-wrap:wrap;gap:4px}.platform-tag{padding:2px 7px;border-radius:4px;background:rgba(139,155,180,.1);border:1px solid rgba(139,155,180,.2);color:var(--text-secondary);font-size:.75rem}
+    .participants-handle{color:var(--text-muted);font-size:.75rem;margin-left:3px}.note-text{font-size:.75rem;color:#ffb86c;margin-top:4px}.history-text{font-size:.75rem;color:var(--text-muted);margin-top:4px}
+    .link-list{display:flex;flex-wrap:wrap;gap:4px 8px;min-width:100px}.link-list a,.source-link{color:var(--accent);font-size:.8rem;text-decoration:none}.link-list a:hover,.source-link:hover{text-decoration:underline}
+    .release-yes{color:var(--green);font-weight:600}.release-no{color:var(--text-muted)}
+    #loading-state,#error-banner{padding:24px;text-align:center;background:var(--bg-surface);border:1px solid var(--border-color);border-radius:8px;margin-bottom:24px}#error-banner{display:none;border-color:#ff4757;background:rgba(255,71,87,.1);color:#ffb8b8}
+    .empty-row td{text-align:center;padding:32px;color:var(--text-muted)}
+    footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--border-subtle);color:var(--text-muted);font-size:.8rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+    footer a{color:var(--text-secondary);text-decoration:none}footer a:hover{color:var(--accent);text-decoration:underline}
+    @media(max-width:800px){body{padding:16px 8px}h1{font-size:1.4rem}th,td{padding:10px 12px}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="header-top">
+      <div class="title-area">
+        <h1>Atari Homebrew Games Registry <span class="badge-live">Online</span></h1>
+        <p>Homebrew games, ports and releases across Atari platforms</p>
+      </div>
+    </div>
+  </header>
+
+  <div id="error-banner"></div>
+  <div id="loading-state">Loading homebrew game registry...</div>
+
+  <main id="main-content" style="display:none">
+    <section class="stats-bar">
+      <div class="stat-card"><div class="stat-label">Games</div><div class="stat-value" id="stat-games">-</div></div>
+      <div class="stat-card"><div class="stat-label">Completed</div><div class="stat-value" id="stat-completed">-</div></div>
+      <div class="stat-card"><div class="stat-label">WIP</div><div class="stat-value" id="stat-wip">-</div></div>
+      <div class="stat-card"><div class="stat-label">Physical Release</div><div class="stat-value" id="stat-physical">-</div></div>
+      <div class="stat-card"><div class="stat-label">Platforms</div><div class="stat-value" id="stat-platforms">-</div></div>
+    </section>
+
+    <div class="toolbar">
+      <div class="search-box">
+        <input id="search-input" class="search-input" type="search" placeholder="Search title, participants, handle, platform, status..." autocomplete="off">
+      </div>
+      <div class="filter-group">
+        <select id="platform-filter" class="select-control"><option value="ALL">All Platforms</option></select>
+        <select id="status-filter" class="select-control"><option value="ALL">All Status</option></select>
+        <select id="release-filter" class="select-control">
+          <option value="ALL">Physical Release: All</option><option value="YES">Physical Release</option><option value="NO">No Physical Release</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="table-container">
+      <table>
+        <thead><tr>
+          <th>Title</th><th>Platform</th><th>Participants</th><th>Players</th><th>Accessories</th><th>ROM Size</th><th>Status</th><th>Physical Release</th><th>Links</th>
+        </tr></thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <div>Source: <span id="source-name">-</span> &bull; Imported: <span id="source-updated">-</span></div>
+    <div><a id="yaml-link" href="../homebrews.yaml" target="_blank" rel="noopener">View YAML</a></div>
+  </footer>
+</div>
+
+const GITHUB_YAML_URL = "https://raw.githubusercontent.com/atariage-community/homebrew-list/refs/heads/main/homebrews.yaml";
+const HOMEBREWS_YAML_URL = 
+  ["localhost", "127.0.0.1"].includes(window.location.hostname)
+    ? "../homebrews.yaml"
+    : GITHUB_YAML_URL;
+
+let registry = { format_version: 1, sources: [], games: [] };
+
+function asArray(value) { return value == null ? [] : (Array.isArray(value) ? value : [value]); }
+function escapeHtml(value) { return String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c])); }
+function statusLabel(s) { return String(s || "Unknown").replace(/_/g," ").replace(/\b\w/g,c=>c.toUpperCase()); }
+function statusClass(s) {
+  s=String(s||"").toLowerCase();
+  if(s==="completed") return "tag-completed";
+  if(s==="wip") return "tag-wip";
+  if(s==="released" || s==="physical_release" || s==="physical release") return "tag-released";
+  return "tag-other";
+}
+function formatBytes(bytes) {
+  if(bytes === null || bytes === undefined || bytes === "") return "—";
+  const n=Number(bytes); if(!Number.isFinite(n)) return escapeHtml(bytes);
+  if(n>=1048576) return `${(n/1048576).toFixed(n%1048576?1:0)} MB`;
+  if(n>=1024) return `${(n/1024).toFixed(n%1024?1:0)} KB`;
+  return `${n} B`;
+}
+function participantsHtml(devs) {
+  return asArray(devs).map(d=>{
+    if(typeof d === "string") return escapeHtml(d);
+    const handle=d.handle ? ` <span class="participants-handle">@${escapeHtml(d.handle)}</span>` : "";
+    const roles=asArray(d.roles).length ? ` <span class="participants-handle">(${asArray(d.roles).map(escapeHtml).join(", ")})</span>` : "";
+    return `${escapeHtml(d.name||"")}${handle}${roles}`;
+  }).join("<br>");
+}
+function participantsSearch(devs) { return asArray(devs).map(d=>typeof d === "string" ? d : [d.name,d.handle,...asArray(d.roles)].join(" ")).join(" "); }
+function sourcesForGame(game) {
+  return asArray(game.sources).map(id=>registry.sources.find(s=>s.id===id)).filter(Boolean);
+}
+function gameLinks(game) {
+  const links=[];
+  if(game.urls && typeof game.urls === "object" && !Array.isArray(game.urls)) Object.entries(game.urls).forEach(([label,url])=>{if(url)links.push({label,url});});
+  return links;
+}
+function linksHtml(game) {
+  const links=gameLinks(game);
+  const sourceLinks=[];
+  sourcesForGame(game).forEach(s=>asArray(s.urls).forEach(url=>{if(url)sourceLinks.push({label:"source",url});}));
+  const all=[...links,...sourceLinks.filter(x=>!links.some(l=>l.url===x.url))];
+  if(!all.length) return "—";
+  return `<div class="link-list">${all.map(l=>`<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`).join("")}</div>`;
+}
+function populateFilters() {
+  const platforms=new Set(), statuses=new Set();
+  registry.games.forEach(g=>{asArray(g.platform).forEach(p=>platforms.add(p)); if(g.status)statuses.add(String(g.status).toLowerCase());});
+  const pf=document.getElementById("platform-filter"), sf=document.getElementById("status-filter");
+  [...platforms].sort().forEach(p=>{const o=document.createElement("option");o.value=p;o.textContent=p;pf.appendChild(o);});
+  [...statuses].sort().forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=statusLabel(s);sf.appendChild(o);});
+}
+function populateStats() {
+  const games=registry.games, platforms=new Set();
+  games.forEach(g=>asArray(g.platform).forEach(p=>platforms.add(p)));
+  document.getElementById("stat-games").textContent=games.length;
+  document.getElementById("stat-completed").textContent=games.filter(g=>String(g.status||"").toLowerCase()==="completed").length;
+  document.getElementById("stat-wip").textContent=games.filter(g=>String(g.status||"").toLowerCase()==="wip").length;
+  document.getElementById("stat-physical").textContent=games.filter(g=>Boolean(g.physical_release)).length;
+  document.getElementById("stat-platforms").textContent=platforms.size;
+}
+function populateMetadata() {
+  const sources=registry.sources;
+  document.getElementById("source-name").textContent=sources.map(s=>s.name).filter(Boolean).join(" • ") || "AtariAge Community";
+  const dates=sources.map(s=>s.imported).filter(Boolean).sort();
+  document.getElementById("source-updated").textContent=dates.length?dates[dates.length-1]:"-";
+}
+function renderTable() {
+  const q=document.getElementById("search-input").value.trim().toLowerCase();
+  const pf=document.getElementById("platform-filter").value, sf=document.getElementById("status-filter").value, rf=document.getElementById("release-filter").value;
+  const filtered=registry.games.filter(g=>{
+    const platforms=asArray(g.platform), status=String(g.status||"").toLowerCase(), physical=Boolean(g.physical_release);
+    if(pf!=="ALL" && !platforms.includes(pf)) return false;
+    if(sf!=="ALL" && status!==sf) return false;
+    if(rf==="YES" && !physical) return false;
+    if(rf==="NO" && physical) return false;
+    if(q){
+      const searchable=[g.title,platforms.join(" "),participantsSearch(g.participants),status,asArray(g.notes).join(" "),JSON.stringify(g.urls||{}),JSON.stringify(g.sources||[])].join(" ").toLowerCase();
+      if(!searchable.includes(q)) return false;
+    }
+    return true;
+  }).sort((a,b)=>String(a.title||"").localeCompare(String(b.title||""),undefined,{sensitivity:"base"}));
+  const tbody=document.getElementById("table-body");
+  if(!filtered.length){tbody.innerHTML=`<tr class="empty-row"><td colspan="7">No matching games found.</td></tr>`;return;}
+  tbody.innerHTML=filtered.map(g=>{
+    const title=escapeHtml(g.title||"Untitled");
+    const atariAge=g.urls && typeof g.urls==="object" && g.urls.atariage ? g.urls.atariage : null;
+    const titleHtml=atariAge?`<a href="${escapeHtml(atariAge)}" target="_blank" rel="noopener">${title}</a>`:title;
+    const notes=asArray(g.notes); const history=asArray(g.history);
+    return `<tr>
+      <td class="title-cell">${titleHtml}${notes.length?`<div class="note-text">${notes.map(escapeHtml).join("<br>")}</div>`:""}${history.length?`<div class="history-text">${history.length} history entr${history.length===1?"y":"ies"}</div>`:""}</td>
+      <td class="platform-cell"><div class="platform-list"><span class="platform-tag">${escapeHtml(g.platform)}</span></div></td>
+      <td class="participants-cell">${participantsHtml(g.participants)}</td>
+      <td class="player-cell">${g.players.map(escapeHtml).join(", ")}</td>
+      <td class="accessories-cell">Required: ${g.accessories.required.map(escapeHtml).join(", ")}<br>Optional: ${g.accessories.optional?.map(escapeHtml).join(", ")}</td>
+      <td class="rom-cell">${formatBytes(g.rom_size)}</td>
+      <td class="status-cell"><span class="tag ${statusClass(g.status)}">${escapeHtml(statusLabel(g.status))}</span></td>
+      <td>${g.physical_release?'<span class="release-yes">Yes</span>':'<span class="release-no">No</span>'}</td>
+      <td>${linksHtml(g)}</td>
+    </tr>`;
+  }).join("");
+}
+async function initApp(){
+  try{
+    const response=await fetch(HOMEBREWS_YAML_URL,{cache:"no-cache"});
+    if(!response.ok) throw new Error(`HTTP ${response.status}: unable to fetch ${HOMEBREWS_YAML_URL}`);
+    const parsed=jsyaml.load(await response.text());
+
+    if(!parsed || typeof parsed!=="object") throw new Error("Invalid YAML structure");
+    registry={format_version:parsed.format_version||1,sources:asArray(parsed.sources),games:asArray(parsed.games)};
+    populateStats();populateFilters();populateMetadata();renderTable();
+    document.getElementById("loading-state").style.display="none";
+    document.getElementById("main-content").style.display="block";
+  }catch(err){
+    console.error(err); document.getElementById("loading-state").style.display="none";
+    const e=document.getElementById("error-banner");e.style.display="block";e.innerHTML=`<strong>Error loading homebrew game registry:</strong> ${escapeHtml(err.message)}`;
+  }
+}
+document.getElementById("search-input").addEventListener("input",renderTable);
+document.getElementById("platform-filter").addEventListener("change",renderTable);
+document.getElementById("status-filter").addEventListener("change",renderTable);
+document.getElementById("release-filter").addEventListener("change",renderTable);
+initApp();
+</script>
+</body>
+</html>
