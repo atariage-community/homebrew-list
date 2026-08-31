@@ -1,119 +1,6627 @@
 format_version: 1
-
 sources:
-  - id: atariage-2600-2026
+  - id: "atariage-2600-2026"
     name: "Atari 2600 Homebrew Games 2026"
     platform: "Atari 2600"
-    urls:
-      - "https://forums.atariage.com/topic/387079-atari-2600-homebrew-games-releasedcompletedwip-in-2026/"
-
+    urls: []
+  - id: "atariage-7800-2026"
+    name: "Atari 7800 Homebrew Games 2026"
+    platform: "Atari 7800"
+    urls: []
+  - id: "atariage-atarilynx-2026"
+    name: "Atari Lynx Homebrew Games 2026"
+    platform: "Atari Lynx"
+    urls: []
 games:
   - title: "1001 Nights"
     platform: "Atari 2600"
-
+    publishers:
+      - "Olioni Games"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Programmed"
+          - "Designed"
+      - name: "Nancy Johnson"
+        roles:
+          - "Cover Art"
+    rom_size: 32768
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388170-1001-nights-new-homebrew-based-on-a-classic-arcade-game/"
+    history:
+      - date: "2026-03-11"
+        status: "completed"
+      - date: "2026-05-05"
+        status: "physical_release"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/388769-1001-nights-atari-2600-new-games-fun/)"
+    listing_updated: "2026-06-04"
+  - title: "Amoeba Jump \"Plus\" Edition"
+    platform: "Atari 2600"
+    publishers:
+      - "AtariAge"
+      - "Rewind Games"
+    participants:
+      - name: "Dionoid Game Studios"
+        roles:
+          - "Studio"
+      - name: "Dion Olsthoorn"
+        handle: "Dionoid"
+        roles:
+          - "Developer"
+      - name: "Nathan Strum"
+        handle: "Nathan Strum"
+        roles:
+          - "Packaging"
+    rom_size: 4096
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390474-amoeba-jump-tower-of-rubble-plus-editions-for-europe/"
+    history:
+      - date: "2019-10-19"
+        status: "physical_release"
+      - date: "2023-05-02"
+        status: "completed"
+      - date: "2026-05-25"
+        status: "completed"
+      - date: "2026-05-25"
+        status: "physical_release"
+    notes:
+      - "Original Physical Release in 2019 / \"Plus\" Edition is a PAL Only Release With Additional Features"
+    listing_updated: "2026-05-29"
+  - title: "Beat Byte"
+    platform: "Atari 2600"
+    participants:
+      - name: "Vojta Nedvěd"
+        handle: "nooly"
+        roles:
+          - "Concept"
+          - "Code"
+          - "Music"
+      - name: "Petr 'Raist' Šťastný"
+        roles:
+          - "Graphics"
+          - "Concept"
+    rom_size: 32768
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386090-beat-byte/"
+    history:
+      - date: "2025-11-23"
+        status: "wip"
+      - date: "2026-05-10"
+        status: "completed"
+    listing_updated: "2026-06-01"
+  - title: "Choplifter 2600"
+    platform: "Atari 2600"
+    publishers:
+      - "Olioni Games"
+    participants:
+      - name: "Xan"
+        handle: "Xan"
+        roles:
+          - "Programmed"
+          - "Designed"
+          - "Cover Art"
+    rom_size: 4096
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389098-choplifter-2600-atari-2600-new-experimental-game/"
+    history:
+      - date: "2026-03-25"
+        status: "completed"
+      - date: "2026-05-05"
+        status: "physical_release"
+    listing_updated: "2026-06-04"
+  - title: "Dasher"
+    platform: "Atari 2600"
+    publishers:
+      - "AtariAge"
+    participants:
+      - name: "Maximus Games"
+        handle: "Maximus Games"
+        roles:
+          - "Developer"
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+      - name: "William Thorup"
+        handle: "BitJag"
+        roles:
+          - "Packaging"
+    rom_size: 65536
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/382967-dasher-a-new-32k-platformer/"
+    history:
+      - date: "2025-08-11"
+        status: "completed"
+      - date: "2025-10-03"
+        status: "completed"
+      - date: "2026-04-24"
+        status: "physical_release"
+    notes:
+      - "Completed in 2025"
+    listing_updated: "2026-04-16"
+  - title: "Depths of Dungeon"
+    platform: "Atari 2600"
+    publishers:
+      - "Retromaniacs"
+    participants:
+      - name: "Sunset Bitworks"
+        roles:
+          - "Developer"
+      - name: "Brock Keaghey"
+        handle: "TheMajorHavoc"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "http://www.facebook.com/groups/119057238515451?multi_permalinks=2377209812700171"
+    history:
+      - date: "2026-08-13"
+        status: "completed"
+      - date: "2026-11-13"
+        status: "physical_release"
+    notes:
+      - "Previously Named The Black Candle (https://forums.atariage.com/topic/385868-the-black-candle-rogue-like/)"
+    listing_updated: "2026-08-13"
+  - title: "Destroyer 2600"
+    platform: "Atari 2600"
+    participants:
+      - name: "Mauro Casu"
+        handle: "kamaleon70"
+        roles:
+          - "Developer and Programmer"
+      - name: "Kees van Oss"
+        handle: "Kees van Oss"
+        roles:
+          - "Submarine Sprites"
+      - name: "Stephen Schisler"
+        handle: "Stephen Schisler"
+        roles:
+          - "Original Box"
+    rom_size: 4096
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386546-work-in-progress-destroyer-atari-2600/"
+    history:
+      - date: "2026-01-13"
+        status: "completed"
+      - date: "2026-02-08"
+        status: "completed"
+      - date: "2026-03-31"
+        status: "physical_release"
+    listing_updated: "2026-03-31"
+  - title: "Devil's Castle"
+    platform: "Atari 2600"
+    publishers:
+      - "Olioni Games"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Programmed"
+          - "Designed"
+      - name: "Daisy"
+        roles:
+          - "Cover Art"
+    rom_size: 8192
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387948-devils-castle-games-in-development/"
+    history:
+      - date: "2026-02-17"
+        status: "wip"
+      - date: "2026-03-09"
+        status: "completed"
+      - date: "2026-05-05"
+        status: "physical_release"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/388722-devils-castle-atari-2600-new-game-fun/)"
+    listing_updated: "2026-06-04"
+  - title: "Doomed"
+    platform: "Atari 2600"
+    publishers:
+      - "Retromaniacs"
+    participants:
+      - name: "Sunset Bitworks"
+        roles:
+          - "Developer"
+      - name: "Brock Keaghey"
+        handle: "TheMajorHavoc"
+        roles:
+          - "Developer"
+    rom_size: 65536
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/323152-doom-the-2600-demake/"
+    history:
+      - date: "2025-12-10"
+        status: "completed"
+      - date: "2026-11-13"
+        status: "physical_release"
+    notes:
+      - "Previously named Doom 2600"
+    listing_updated: "2026-08-13"
+  - title: "Geist"
+    platform: "Atari 2600"
+    publishers:
+      - "Olioni Games"
+    participants:
+      - name: "Axel Schulze-Halberg"
+        handle: "xbataxel"
+        roles:
+          - "Programmed"
+          - "Designed"
+    rom_size: 16384
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/356374-geist-homebrew-game/"
+    history:
+      - date: "2026-03-19"
+        status: "completed"
+      - date: "2026-05-05"
+        status: "physical_release"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/388951-geist-atari-2600-new-experimental-game/)"
+    listing_updated: "2026-06-04"
+  - title: "Gridlock"
+    platform: "Atari 2600"
+    publishers:
+      - "Champ Games"
+    participants:
+      - name: "Andrew Davie"
+        handle: "Andrew Davie"
+        roles:
+          - "Programming"
+          - "Graphics"
+          - "Sound"
+          - "Solution Data"
+      - name: "Vladimir Zuñiga"
+        handle: "vhzc"
+        roles:
+          - "Box Art"
+    rom_size: 32768
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://woodgrain.taswegian.com/index.php?board=34.0"
+    history:
+      - date: "2026-06-01"
+        status: "completed"
+      - date: "2026-06-01"
+        status: "physical_release"
+    listing_updated: "2026-06-02"
+  - title: "Grizzards"
+    platform: "Atari 2600"
+    publishers:
+      - "AtariAge"
+    participants:
+      - name: "Bruce-Robert Pocock"
+        handle: "brpocock@star-hope.org"
+        roles:
+          - "Programming"
+          - "Manual Text"
+          - "In-Game Artwork"
+          - "Sound Effects"
+      - name: "Zephyr Pocock"
+        handle: "Zephyr Pocock"
+        roles:
+          - "Art for Manual"
+          - "Label and cover"
+          - "Music"
+    rom_size: 65536
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/322957-grizzards-%E2%80%94-turn-based-rpg/"
+    history:
+      - date: "2022-10-06"
+        status: "completed"
+      - date: "2022-10-15"
+        status: "physical_release"
+    notes:
+      - "Completed & Physical Release in 2022"
+    listing_updated: "2026-02-09"
+  - title: "Jutland Skies"
+    platform: "Atari 2600"
+    publishers:
+      - "AtariAge"
+    participants:
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/357840-jutland-skies-released-game-for-atari-2600/"
+    history:
+      - date: "2023-12-05"
+        status: "completed"
+      - date: "2026-04-24"
+        status: "physical_release"
+    notes:
+      - "Completed in 2023"
+    listing_updated: "2026-04-16"
+  - title: "Kaiju"
+    platform: "Atari 2600"
+    participants:
+      - name: "Roy Riggs"
+        handle: "furroy"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://furroy.itch.io/kaiju"
+    history:
+      - date: "2025-09-13"
+        status: "completed"
+      - date: "2026-02-10"
+        status: "physical_release"
+    notes:
+      - "Completed in 2025"
+    listing_updated: "2025-09-15"
+  - title: "Knights of Warren"
+    platform: "Atari 2600"
+    participants:
+      - name: "Leandro Camara"
+        handle: "HSW3ET"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://www.facebook.com/zarkstars/posts/pfbid0JvEWUrE9bnNYe3MztRavLxw4mSTzPSayNZc5Si9k2z5fz9N2bskPEidSCaad4nfZl"
+    history:
+      - date: "2026-04-16"
+        status: "completed"
+      - date: "2026-04-19"
+        status: "physical_release"
+      - date: "2026-04-20"
+        status: "completed"
+    listing_updated: "2026-04-25"
+  - title: "Lost Soul"
+    platform: "Atari 2600"
+    publishers:
+      - "Olioni Games"
+    participants:
+      - name: "Axel Schulze-Halberg"
+        handle: "xbataxel"
+        roles:
+          - "Programmed"
+          - "Designed"
+    rom_size: 8192
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386309-lost-soul-homebrew-game/"
+    history:
+      - date: "2025-12-06"
+        status: "wip"
+      - date: "2026-03-23"
+        status: "wip"
+      - date: "2026-03-23"
+        status: "completed"
+      - date: "2026-05-05"
+        status: "physical_release"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/389053-lost-soul-atari-2600-new-experimental-game/)"
+    listing_updated: "2026-06-04"
+  - title: "Monster Mayhem"
+    platform: "Atari 2600"
+    participants:
+      - name: "Samuel Stein"
+        handle: "tillabole"
+        roles:
+          - "Programmed"
+      - name: "Jack Bruno"
+        handle: "Larryfriendly"
+        roles:
+          - "Designed"
+      - name: "Enderroach"
+        roles:
+          - "Original Box Art"
+    rom_size: 8192
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388663-new-homebrew-monster-mayhem/"
+    history:
+      - date: "2026-03-05"
+        status: "completed"
+      - date: "2026-07-17"
+        status: "physical_release"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/388494-monster-mayhem-wip/) / Alternate Thread (https://forums.atariage.com/topic/388495-monster-mayham-wip/)"
+    listing_updated: "2026-07-20"
+  - title: "Ninjish Guy Jr."
+    platform: "Atari 2600"
+    publishers:
+      - "AtariAge"
+    participants:
+      - name: "VHZC Games"
+        handle: "VHZC Games"
+        roles:
+          - "Developer"
+      - name: "Vladimir Zúñiga"
+        handle: "vhzc"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/374280-ninjish-guy-jr/"
+    history:
+      - date: "2026-04-16"
+        status: "completed"
+      - date: "2026-04-24"
+        status: "physical_release"
+    listing_updated: "2026-04-16"
+  - title: "Pac-Line Panic"
+    platform: "Atari 2600"
+    publishers:
+      - "Opcode Games"
+    participants:
+      - name: "Thomas Jentzsch"
+        handle: "Thomas Jentzsch"
+        roles:
+          - "Developer"
+      - name: "DINTAR816"
+        handle: "DINTAR816"
+        roles:
+          - "Sound"
+    rom_size: 4096
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/368501-pac-line-x-8/"
+    history:
+      - date: "2025-07-22"
+        status: "completed"
+      - date: "2025-07-22"
+        status: "physical_release"
+      - date: "2026-06-26"
+        status: "physical_release"
+    notes:
+      - "Previously Named Pac-Line x 8 / Alternate Thread (https://forums.atariage.com/topic/378196-pac-line-x-8-got-a-name-pac-line-panic/)"
+    listing_updated: "2026-07-26"
+  - title: "Plan B: New Earth"
+    platform: "Atari 2600"
+    publishers:
+      - "Artisan Retro Games"
+      - "AtariAge"
+    participants:
+      - name: "Artisan Retro Games"
+        handle: "Artisan Retro Games"
+        roles:
+          - "Developer"
+      - name: "Michael Scott Bachman"
+        handle: "Mike_at_AEI"
+        roles:
+          - "Developer"
+      - name: "William Thorup"
+        handle: "BitJag"
+        roles:
+          - "Packaging"
+    rom_size: 32768
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/373797-plan-b-new-earth-the-sequel/"
+    history:
+      - date: "2025-04-13"
+        status: "completed"
+      - date: "2025-08-01"
+        status: "physical_release"
+      - date: "2026-04-24"
+        status: "physical_release"
+    notes:
+      - "Completed in 2025 / Physical Release in 2025"
+    listing_updated: "2026-04-16"
+  - title: "Quest for Tikal"
+    platform: "Atari 2600"
+    publishers:
+      - "Retro NextPhase"
+    participants:
+      - name: "Retro NextPhase"
+        handle: "Retro NextPhase"
+        roles:
+          - "Developer"
+      - name: "Lucien Kleijkers"
+        handle: "lucienEn"
+        roles:
+          - "Game Development"
+          - "Graphics Design"
+      - name: "Sandra Hanssen"
+        roles:
+          - "Graphics Design"
+          - "Package Art"
+    rom_size: 131072
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388991-introducing-quest-for-tikal-%E2%80%93-a-new-128kb-atari-2600-game-physical-release/"
+    history:
+      - date: "2026-06-28"
+        status: "completed"
+      - date: "2026-06-29"
+        status: "completed"
+      - date: "2026-07-07"
+        status: "physical_release"
+    listing_updated: "2026-06-29"
+  - title: "Spider Spider!"
+    platform: "Atari 2600"
+    participants:
+      - name: "Samuel Stein"
+        handle: "tillabole"
+        roles:
+          - "Programming & Audio Visual"
+      - name: "Jack Bruno"
+        handle: "Larryfriendly"
+        roles:
+          - "Story & Game Design"
+    rom_size: 4096
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://pixelteapot.bigcartel.com/product/spider-spider"
+    history:
+      - date: "2026-08-26"
+        status: "completed"
+      - date: "2026-08-26"
+        status: "physical_release"
+      - date: "2026-08-28"
+        status: "physical_release"
+    listing_updated: "2026-08-27"
+  - title: "Stop die Glocke"
+    platform: "Atari 2600"
+    participants:
+      - name: "Cisano"
+        handle: "Cisano"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/384340-stop-die-glocke-new-game/"
+    history:
+      - date: "2024-09-05"
+        status: "completed"
+      - date: "2025-09-05"
+        status: "completed"
+      - date: "2026-02-17"
+        status: "physical_release"
+    listing_updated: "2026-02-26"
+  - title: "Tic-Tac-Toe"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kyle Reiach"
+        handle: "Kyle Reiach"
+        roles:
+          - "Developed & Programmed"
+      - name: "Stephen Schisler"
+        handle: "Stephen Schisler"
+        roles:
+          - "Original Box Art"
+    rom_size: 4096
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/385713-8blits-tic-tac-toe-homebrew-release/"
+    history:
+      - date: "2026-05-16"
+        status: "completed"
+      - date: "2026-05-16"
+        status: "physical_release"
+    listing_updated: "2026-07-29"
+  - title: "Tower of Rubble \"Plus\" Edition"
+    platform: "Atari 2600"
+    publishers:
+      - "AtariAge"
+      - "Rewind Games"
+    participants:
+      - name: "by Dionoid Game Studios"
+        roles:
+          - "Studio"
+      - name: "Dion Olsthoorn"
+        handle: "Dionoid"
+        roles:
+          - "Developer"
+      - name: "Dave Dries"
+        handle: "DaveD"
+        roles:
+          - "Packaging"
+    rom_size: 8192
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390474-amoeba-jump-tower-of-rubble-plus-editions-for-europe/"
+    history:
+      - date: "2020-12-07"
+        status: "physical_release"
+      - date: "2021-01-03"
+        status: "completed"
+      - date: "2026-05-25"
+        status: "completed"
+      - date: "2026-05-25"
+        status: "physical_release"
+    notes:
+      - "Original Physical Release in 2020 / \"Plus\" Edition is a PAL Only Release With Additional Features"
+    listing_updated: "2026-05-29"
+  - title: "T-Rex Runner"
+    platform: "Atari 2600"
+    participants:
+      - name: "Fernando Rodrigues Salvio"
+        handle: "Fernando Rodrigues Salvio"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://fernandosalvio.itch.io/corre-jose-atari-2600-dino-run"
+    history:
+      - date: "2025-08-15"
+        status: "completed"
+      - date: "2026-08-03"
+        status: "physical_release"
+    notes:
+      - "Previously Named Corre José, Run Joseph, T-Rex Game, and Dino Run / Previously Completed"
+    listing_updated: "2026-08-06"
+  - title: "UMI vs. The Bullion Bandits From Outer Space!"
+    platform: "Atari 2600"
+    publishers:
+      - "Artisan Retro Games"
+    participants:
+      - name: "Artisan Retro Games"
+        handle: "Artisan Retro Games"
+        roles:
+          - "Developer"
+      - name: "Michael Scott Bachman"
+        handle: "Mike_at_AEI"
+        roles:
+          - "Developer"
+      - name: "José Rafael Marcano Santelli"
+        handle: "Koji Kabuto"
+        roles:
+          - "Developer"
+    rom_size: 92160
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391345-umi-vs-the-bullion-bandits-from-outer-space/"
+    history:
+      - date: "2026-07-05"
+        status: "completed"
+      - date: "2026-07-05"
+        status: "physical_release"
+      - date: "2026-07-19"
+        status: "physical_release"
+    notes:
+      - "Previously named Umi Colors & Umi Colors Deluxe"
+    listing_updated: "2026-07-23"
+  - title: "Zarkstars III - Deep Space"
+    platform: "Atari 2600"
+    participants:
+      - name: "Sky Line Games"
+        roles:
+          - "Studio"
+      - name: "Leandro Camara"
+        handle: "HSW3ET"
+        roles:
+          - "Design and Programming"
+    rom_size: 16384
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/314241-deep-space-atari-2600/"
+    history:
+      - date: "2025-12-22"
+        status: "completed"
+      - date: "2025-12-22"
+        status: "physical_release"
+    notes:
+      - "Completed & Physical Missed in 2025"
+    listing_updated: "2026-01-25"
+  - title: "101"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/101"
+    history:
+      - date: "2026-05-12"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "30 Seconds"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/30-seconds"
+    history:
+      - date: "2026-04-24"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "4 Seasons"
+    platform: "Atari 2600"
+    participants:
+      - name: "Noelin"
+        handle: "Tuck"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390356-4-seasons-a-cozy-atari-2600-fish-farm-game-complete-final-bin-available/"
+    history:
+      - date: "2026-05-28"
+        status: "completed"
+      - date: "2026-06-05"
+        status: "completed"
+    listing_updated: "2026-06-09"
+  - title: "Abyss Diver"
+    platform: "Atari 2600"
+    participants:
+      - name: "Enrique"
+        handle: "artefacto"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389615-new-game-release-abyss-diver/"
+    history:
+      - date: "2026-04-15"
+        status: "completed"
+      - date: "2026-04-17"
+        status: "completed"
+    listing_updated: "2026-04-18"
+  - title: "Airport Crazy Bag"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/airport-crazy-bag"
+    history:
+      - date: "2026-01-25"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Alien Fight"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391522-new-game-alien-fight/"
+    history:
+      - date: "2026-07-15"
+        status: "completed"
+    listing_updated: "2026-07-16"
+  - title: "Aliens On The Sun"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/aliens-on-the-sun"
+    history:
+      - date: "2026-05-08"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "And So I Wished Upon a Star"
+    platform: "Atari 2600"
+    participants:
+      - name: "itchydog"
+        handle: "itchydog"
+        roles:
+          - "Developer"
+    rom_size: 65536
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389741-and-so-i-wished-upon-a-star-atari-2600-game/"
+    history:
+      - date: "2026-07-14"
+        status: "completed"
+      - date: "2026-08-04"
+        status: "completed"
+    listing_updated: "2026-08-04"
+  - title: "Antaro the Dachshund"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/antaro-the-dachshund"
+    history:
+      - date: "2026-01-28"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Arcade Pong"
+    platform: "Atari 2600"
+    participants:
+      - name: "djmips"
+        handle: "djmips"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/90158-arcade-pong/"
+    history:
+      - date: "2026-06-04"
+        status: "completed"
+    notes:
+      - "Completed in a Previous Year / Nominated for Best 4K Homebrew in 2019"
+    listing_updated: "2026-06-04"
+  - title: "Archery"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/archery"
+    history:
+      - date: "2026-01-13"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Atageddon"
+    platform: "Atari 2600"
+    participants:
+      - name: "Matteo \""
+        handle: "Toolkitman"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://matteo-trevisan.itch.io/atageddonatari-2600"
+    history:
+      - date: "2026-03-31"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Ataro 2988"
+    platform: "Atari 2600"
+    participants:
+      - name: "Matteo \""
+        handle: "Toolkitman"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://matteo-trevisan.itch.io/ataro-2988atari-2600"
+    history:
+      - date: "2026-03-29"
+        status: "completed"
+      - date: "2026-03-30"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Balloon Pop"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/balloon-pop"
+    history:
+      - date: "2026-01-22"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Black Hole"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/black-hole"
+    history:
+      - date: "2026-03-09"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Boneyard Bounce"
+    platform: "Atari 2600"
+    participants:
+      - name: "Maximus Games"
+        handle: "Maximus Games"
+        roles:
+          - "Developer"
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/385185-boneyard-bounce/"
+    history:
+      - date: "2026-07-01"
+        status: "completed"
+      - date: "2026-07-09"
+        status: "completed"
+    listing_updated: "2026-07-09"
+  - title: "Bounce!"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391540-new-game-bounce/"
+    history:
+      - date: "2026-07-16"
+        status: "completed"
+    listing_updated: "2026-07-16"
+  - title: "Break Invade"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiki 2600 Games"
+        handle: "Kiki 2600 Games"
+        roles:
+          - "Developer"
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/369345-break-invade-game-for-atari-2600-in-development/"
+    history:
+      - date: "2026-02-03"
+        status: "completed"
+    listing_updated: "2026-02-03"
+  - title: "Brik Boom"
+    platform: "Atari 2600"
+    participants:
+      - name: "Mike Littau"
+        handle: "littaum"
+        roles:
+          - "Code"
+      - name: "Mike Littau"
+        handle: "littaum"
+        roles:
+          - "Graphics"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391158-brik-boom-wip-new-puzzle-homebrew-for-atari-2600/"
+    history:
+      - date: "2026-07-26"
+        status: "completed"
+      - date: "2026-08-23"
+        status: "completed"
+    listing_updated: "2026-08-23"
+  - title: "Bug Geek"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/bug-geek"
+    history:
+      - date: "2026-04-30"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Bunker"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/bunker"
+    history:
+      - date: "2026-06-03"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Carlotta"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/carlotta"
+    history:
+      - date: "2026-05-10"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Catch Color"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/catch-color"
+    history:
+      - date: "2026-05-24"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Catch the Flag"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/catch-the-flag"
+    history:
+      - date: "2026-02-19"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Chopper Duel"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/chopper-duel"
+    history:
+      - date: "2026-02-09"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Collect"
+    platform: "Atari 2600"
+    participants:
+      - name: "Eeth Savage"
+        handle: "eethsavage"
+        roles:
+          - "Developer"
+    rom_size: 1024
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390626-collect-a-very-simple-1k-game/"
+    history:
+      - date: "2026-06-01"
+        status: "completed"
+      - date: "2026-06-02"
+        status: "completed"
+    listing_updated: "2026-06-03"
+  - title: "Color Match"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/color-match"
+    history:
+      - date: "2026-01-19"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Cosmic Custodian 2"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiki 2600 Games"
+        handle: "Kiki 2600 Games"
+        roles:
+          - "Developer"
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388594-cosmic-custodian-2-atari-2600-wip/"
+    history:
+      - date: "2026-03-02"
+        status: "completed"
+      - date: "2026-03-15"
+        status: "completed"
+    listing_updated: "2026-03-16"
+  - title: "Cosmico's Enemies"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391408-new-game-cosmicos-enemies/"
+    history:
+      - date: "2026-07-08"
+        status: "completed"
+    listing_updated: "2026-07-09"
+  - title: "Creatures, The"
+    platform: "Atari 2600"
+    participants:
+      - name: "Thiago Lima"
+        roles:
+          - "Programming"
+          - "Design"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392084-the-creatures-atari-2600-new-games/"
+    history:
+      - date: "2026-08-12"
+        status: "completed"
+    listing_updated: "2026-08-12"
+  - title: "Cupid"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/cupid"
+    history:
+      - date: "2026-03-13"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Curling Training"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/curling-training"
+    history:
+      - date: "2026-02-24"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Cyber Elevator"
+    platform: "Atari 2600"
     participants:
       - name: "Alfredo Arias"
         handle: "alfredtdk"
         roles:
           - "Developer"
-
-      - name: "Nancy Johnson"
-        roles:
-          - "Boxart"
-
-    rom_size: 32768
-    players:
-      - 1
-
-    accessories:
-      required:
-        - "Joystick"
-      optional: []
-
-    status: completed
-    physical_release: true
-
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
     urls:
-      atariage: "https://forums.atariage.com/topic/388170-1001-nights-new-homebrew-based-on-a-classic-arcade-game/"
+      atariage: "https://forums.atariage.com/topic/391538-cyber-elevator-atari-2600-new-games/"
     history:
-      - date: "2026-02-20"
-        status: wip
-
-      - date: "2026-03-11"
-        status: completed
-
-      - date: "2026-05-05"
-        status: physical_release
-
-  - title: "Amoeba Jump \"Plus\" Edition"
+      - date: "2026-07-16"
+        status: "completed"
+    listing_updated: "2026-07-16"
+  - title: "Cyber Grid"
     platform: "Atari 2600"
-    publishers:
-      - "Dionoid Game Studios"
-
     participants:
-      - name: "Dion Olsthoorn"
-        handle: "Dionoid"
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
         roles:
           - "Developer"
-
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/cyber-grid"
+    history:
+      - date: "2026-05-30"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Cyber Kain"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390173-cyber-kain-homebrew-release-may-2026/"
+    history:
+      - date: "2026-06-04"
+        status: "completed"
+    listing_updated: "2026-06-04"
+  - title: "Cyber-Sphere Challenge"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388071-cyber-sphere-challenge-demo-new-homebrew-2026/"
+    history:
+      - date: "2026-02-09"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/388120-cyber-sphere-challenge-atari-2600-new-games-fun/)"
+    listing_updated: "2026-02-09"
+  - title: "Danger Race"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/danger-race"
+    history:
+      - date: "2026-01-04"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Dig Ferret"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387758-dig-ferret-new-simple-atari-4k-game/"
+    history:
+      - date: "2026-05-26"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/390498-dig-ferret-atari-2600-new-experimental-game/)"
+    listing_updated: "2026-05-29"
+  - title: "Dogs and Cookies"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/dogs-and-cookies"
+    history:
+      - date: "2026-01-12"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Dog World"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/dog-world"
+    history:
+      - date: "2026-04-19"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Easter Eggs"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/easter-eggs"
+    history:
+      - date: "2026-04-03"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Eraser"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/eraser"
+    history:
+      - date: "2026-05-04"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Extreme Running"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391117-extreme-running-atari-2600-new-games/"
+    history:
+      - date: "2026-06-23"
+        status: "completed"
+    listing_updated: "2026-06-24"
+  - title: "Fate Of A Bait"
+    platform: "Atari 2600"
+    participants:
+      - name: "Christian Hammers"
+        handle: "hammersdev"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386678-fate-of-a-bait-wip-first-playable-version/"
+    history:
+      - date: "2026-06-26"
+        status: "completed"
+    listing_updated: "2026-06-28"
+  - title: "Ferrari .H Racing 2"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387431-ferrari-h-racing-2-game-in-development/"
+    history:
+      - date: "2026-01-19"
+        status: "wip"
+      - date: "2026-01-27"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/387747-ferrari-h-racing-2-new-games-fun/)"
+    listing_updated: "2026-01-29"
+  - title: "FIFA 1977"
+    platform: "Atari 2600"
+    participants:
+      - name: "Matteo Trevisan"
+        handle: "Matteo_T."
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://matteo-trevisan.itch.io/fifa-1977atari-2600"
+    history:
+      - date: "2026-03-29"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Fire On Highway"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/fire-on-highway"
+    history:
+      - date: "2026-04-16"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Fire On Starship"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/fire-on-starship"
+    history:
+      - date: "2026-04-10"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Fish Lane"
+    platform: "Atari 2600"
+    participants:
+      - name: "Rodrigo Verulo"
+        handle: "Rodrigo Verulo"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://tooizzi.itch.io/fishlane-atari-2600/"
+    history:
+      - date: "2026-02-10"
+        status: "completed"
+    listing_updated: "2026-02-12"
+  - title: "Flooded Lands"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/flooded-lands"
+    history:
+      - date: "2026-06-06"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Food Chain"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/379814-food-chain-new-homebrew-2025/"
+    history:
+      - date: "2026-05-04"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/390046-food-chain-new-experimental-game/)"
+    listing_updated: "2026-05-04"
+  - title: "Frownland Inferno: Origins"
+    platform: "Atari 2600"
+    participants:
+      - name: "Unpainted Productions"
+        handle: "Unpainted Productions"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://unpainted-productions.itch.io/frownland-inferno-2600"
+    history:
+      - date: "2026-04-09"
+        status: "completed"
+    listing_updated: "2026-06-10"
+  - title: "Gay Bear Sex"
+    platform: "Atari 2600"
+    participants:
+      - name: "Tyler Cuddle Tail"
+        handle: "Tyler Cuddle Tail"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://tylercuddletail.itch.io/gay-bear-sex-fur-the-atari18"
+    history:
+      - date: "2026-03-20"
+        status: "completed"
+    notes:
+      - "Modified Version is Called Happy Bear Hugs (https://tylercuddletail.itch.io/happybearhugsfuratari2600)"
+    listing_updated: "2026-03-22"
+  - title: "Get The Cookie!"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390079-get-the-cookie-atari-2600/"
+    history:
+      - date: "2026-05-05"
+        status: "completed"
+    listing_updated: "2026-05-06"
+  - title: "Get The Ballz"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391676-new-game-get-the-ballz/"
+    history:
+      - date: "2026-07-23"
+        status: "completed"
+    listing_updated: "2026-07-26"
+  - title: "Ghost Ships"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/ghost-ships"
+    history:
+      - date: "2026-04-22"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Goalkeeper Training"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/goalkeeper-training"
+    history:
+      - date: "2026-02-12"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Gold Coins"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/gold-coins"
+    history:
+      - date: "2026-04-12"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Goldplanet, The"
+    platform: "Atari 2600"
+    participants:
+      - name: "Frank Meyer"
+        handle: "MEYER EDV"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392336-release-the-goldplanet-new-atari-2600-homebrew-ntsc-pal/"
+    history:
+      - date: "2026-08-23"
+        status: "completed"
+    listing_updated: "2026-08-25"
+  - title: "Good Morning, Vietnam"
+    platform: "Atari 2600"
+    participants:
+      - name: "Xan"
+        handle: "Xan"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388134-good-morning-vietnam/"
+    history:
+      - date: "2026-02-09"
+        status: "wip"
+      - date: "2026-02-15"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/388282-good-morning-vietnam-atari-2600-new-games-fun/)"
+    listing_updated: "2026-02-16"
+  - title: "Grid Lock"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/grid-lock"
+    history:
+      - date: "2026-05-03"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Ground Lift"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/ground-lift"
+    history:
+      - date: "2026-01-16"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Harry Peril"
+    platform: "Atari 2600"
+    participants:
+      - name: "Enrique"
+        handle: "artefacto"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387640-new-game-wip-harry-peril-rick-dangerous-clone/"
+    history:
+      - date: "2026-03-10"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/388762-new-game-release-harry-peril/)"
+    listing_updated: "2026-03-12"
+  - title: "House of Devils"
+    platform: "Atari 2600"
+    participants:
+      - name: "Axel Schulze-Halberg"
+        handle: "xbataxel"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388953-house-of-devils-homebrew-game-2026/"
+    history:
+      - date: "2026-03-19"
+        status: "completed"
+    notes:
+      - "Previously Named Castle of Devils / Alternate Thread (https://forums.atariage.com/topic/356372-castle-of-devils-homebrew-game/)"
+    listing_updated: "2026-03-19"
+  - title: "Ice Penguin"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389435-ice-penguin-atari-2600-new-experimental-game/"
+    history:
+      - date: "2026-04-08"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Invader 3026"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/invader-3026"
+    history:
+      - date: "2026-02-16"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "It's Not A Pong"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/its-not-a-pong"
+    history:
+      - date: "2026-04-14"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Jim The Miner"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/382234-jim-the-miner-homebrew-2025/"
+    history:
+      - date: "2026-01-10"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/387381-jim-the-miner-atari-2600-new-game-fun/) / Alternate Thread (https://forums.atariage.com/topic/387709-hank-the-miner-free-version-of-jim-the-miner/)"
+    listing_updated: "2026-01-26"
+  - title: "Jublo"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiki 2600 Games"
+        handle: "Kiki 2600 Games"
+        roles:
+          - "Developer"
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392283-jublo-atari-2600/"
+    history:
+      - date: "2026-08-21"
+        status: "completed"
+    listing_updated: "2026-08-23"
+  - title: "Kraken's Revenge"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387423-submerged-new-homebrew-project/"
+    history:
+      - date: "2026-01-26"
+        status: "completed"
+    notes:
+      - "Previously named Submerged / Alternate Thread (https://forums.atariage.com/topic/387718-krakens-revenge-atari-2600-new-games-fun/) / Alternate Thread (https://forums.atariage.com/topic/387730-krakens-revenge-free-edition/)"
+    listing_updated: "2026-01-29"
+  - title: "Landing"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/landing"
+    history:
+      - date: "2026-05-25"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Last Shield"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/last-shield"
+    history:
+      - date: "2026-03-18"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Light Off"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/light-off"
+    history:
+      - date: "2026-04-29"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Little Ball"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391324-new-game-little-ball/"
+    history:
+      - date: "2026-07-04"
+        status: "completed"
+    listing_updated: "2026-07-05"
+  - title: "Lost In Ocean"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/lost-in-ocean"
+    history:
+      - date: "2026-04-17"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Lost Soul Underworld"
+    platform: "Atari 2600"
+    participants:
+      - name: "Axel Schulze-Halberg"
+        handle: "xbataxel"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389659-lost-soul-underworld-game-manual-new-homebrew-game/"
+    history:
+      - date: "2026-04-16"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/389642-lost-soul-underworld-atari-2600-new-experimental-game/)"
+    listing_updated: "2026-04-17"
+  - title: "LRV - Rover Patrol"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Programming & Design"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/379857-lrv-rover-patrol-homebrew-in-development-2025/"
+    history:
+      - date: "2026-08-31"
+        status: "completed"
+    notes:
+      - "Previously named 'LRV - Rover Patrol' and 'L.R.V. - A Lunar Adventure' / Alternate Thread (https://forums.atariage.com/topic/392514-lrv-rover-patrol-new-games/)"
+    listing_updated: "2026-08-31"
+  - title: "Man and The Bus, The"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391441-new-game-the-man-and-the-bus/"
+    history:
+      - date: "2026-07-10"
+        status: "completed"
+    listing_updated: "2026-07-13"
+  - title: "Mario Shooters"
+    platform: "Atari 2600"
+    participants:
+      - name: "GameBoyGuy"
+        handle: "GameBoyGuy"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://gameboyguy.itch.io/mario-shooters-2600"
+    history:
+      - date: "2026-03-24"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Matt Ford in Lost Kingdom"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/382433-matt-ford-in-the-lost-kingdom-old-title-bb-17-ford-128b-ram-year-2025/#findComment-5808044"
+    history:
+      - date: "2026-04-04"
+        status: "wip"
+      - date: "2026-04-25"
+        status: "completed"
+    notes:
+      - "Previously Named Matt Ford in BB 1.8 128B RAM II (https://forums.atariage.com/topic/384334-matt-ford-in-bb-18-128b-ram-ii-continuation-of-bb-17-ford-128b-ram/) / Alternate Thread (https://forums.atariage.com/topic/389848-matt-ford-the-lost-kingdom-new-experimental-game/)"
+  - title: "Memory Block"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/memory-block"
+    history:
+      - date: "2026-03-21"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Mouse vs. Cat"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "BRGames2600"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://olionigamesoficial.wixsite.com/olioni-games-inc/product-page/mouse-v-s-cat-ntsc-pal"
+    history:
+      - date: "2024-11-06"
+        status: "completed"
+    notes:
+      - "Previously Completed in 2024 / Alternate Thread"
+    listing_updated: "2026-02-23"
+  - title: "Moving Targets"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/moving-target"
+    history:
+      - date: "2026-01-14"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Motocross Circuit"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "BRGames2600"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391087-motocross-circuit-atari-2600-new-experimental-game/"
+    history:
+      - date: "2026-06-22"
+        status: "completed"
+    listing_updated: "2026-06-24"
+  - title: "Mouse Thief"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/mouse-thief"
+    history:
+      - date: "2026-03-16"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Nailgun Panic"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/nailgun-panic"
+    history:
+      - date: "2026-01-23"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Nova Guardian"
+    platform: "Atari 2600"
+    participants:
+      - name: "Hyperion"
+        handle: "Hyperion"
+        roles:
+          - "Developer"
+    rom_size: 2048
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391649-nova-guardian-ai-assisted-homebrew/"
+    history:
+      - date: "2026-08-04"
+        status: "completed"
+    notes:
+      - "Made with AI"
+    listing_updated: "2026-08-04"
+  - title: "Nuclear Disaster"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/nuclear-disaster"
+    history:
+      - date: "2026-03-11"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "One Button Games"
+    platform: "Atari 2600"
+    participants:
+      - name: "Aegis Games"
+        handle: "Aegis Games"
+        roles:
+          - "Developer"
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/322289-one-button-game-collection/"
+    history:
+      - date: "2026-05-31"
+        status: "completed"
+    notes:
+      - "Collection contains Stack It Up, 1 Button Bomber, Yum, Runny Nose, What The Duck?, Color Match / Collection previously titled 'Press Fire'"
+    listing_updated: "2026-06-01"
+  - title: "One Shot"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/one-shot"
+    history:
+      - date: "2026-05-19"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Orion-X"
+    platform: "Atari 2600"
+    participants:
+      - name: "Enrique"
+        handle: "artefacto"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386990-new-game-release-orion-x/"
+    history:
+      - date: "2025-12-29"
+        status: "completed"
+      - date: "2026-02-12"
+        status: "completed"
+    notes:
+      - "Completed in 2025"
+    listing_updated: "2026-02-13"
+  - title: "Phantom Cruiser"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/phantom-cruiser"
+    history:
+      - date: "2026-01-31"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Plane Survival"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391268-new-game-plane-survival/"
+    history:
+      - date: "2026-07-01"
+        status: "completed"
+    listing_updated: "2026-07-02"
+  - title: "Planet of Lava Rivers"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/planet-of-lava-rivers"
+    history:
+      - date: "2026-03-13"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Polar Grip"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/polar-grip"
+    history:
+      - date: "2026-03-01"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Pong-X"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/pong-x"
+    history:
+      - date: "2026-01-20"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Pac Paddle"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiki 2600 Games"
+        handle: "Kiki 2600 Games"
+        roles:
+          - "Developer"
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388913-pac-paddle-atari-2600-wip/"
+    history:
+      - date: "2026-03-31"
+        status: "completed"
+    listing_updated: "2026-04-02"
+  - title: "Planet Defender"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391610-new-game-planet-defender/"
+    history:
+      - date: "2026-07-19"
+        status: "completed"
+    listing_updated: "2026-07-20"
+  - title: "Prepper Lone Wolf"
+    platform: "Atari 2600"
+    participants:
+      - name: "James Bernard Roth"
+        handle: "James Bernard Roth"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391519-prepper-lone-wolf-atari-2600/"
+    history:
+      - date: "2026-07-15"
+        status: "completed"
+      - date: "2026-08-24"
+        status: "completed"
+    notes:
+      - "Alternative Thread (https://forums.atariage.com/topic/392386-prepper-lone-wolf-new-game-free-rom/)"
+    listing_updated: "2026-08-25"
+  - title: "Puck Paddle"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiki 2600 Games"
+        handle: "Kiki 2600 Games"
+        roles:
+          - "Developer"
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388913-pac-paddle-atari-2600-wip/"
+    history:
+      - date: "2026-03-29"
+        status: "completed"
+      - date: "2026-03-31"
+        status: "completed"
+    listing_updated: "2026-04-02"
+  - title: "Quad-Man"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/quad-man"
+    history:
+      - date: "2026-01-07"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Quick Snack"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/quick-snack"
+    history:
+      - date: "2026-03-10"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Raid of the Vampire"
+    platform: "Atari 2600"
+    participants:
+      - name: "Axel Schulze-Halberg"
+        handle: "xbataxel"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390625-raid-of-the-vampire-wip-2026/"
+    history:
+      - date: "2026-06-13"
+        status: "completed"
+    listing_updated: "2026-06-15"
+  - title: "Railroad Crisis"
+    platform: "Atari 2600"
+    participants:
+      - name: "Enrique"
+        handle: "artefacto"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387284-new-game-wip-railroad-crisis-stop-the-express-clone/"
+    history:
+      - date: "2026-01-13"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/387421-new-game-release-railroad-crisis/)"
+    listing_updated: "2026-01-14"
+  - title: "Reactor Rescue"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/reactor-rescue"
+    history:
+      - date: "2026-04-18"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "River In Flood"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/river-in-flood"
+    history:
+      - date: "2026-01-06"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Royal Thief"
+    platform: "Atari 2600"
+    participants:
+      - name: "Enrique"
+        handle: "artefacto"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390460-new-game-release-royal-thief/"
+    history:
+      - date: "2026-05-24"
+        status: "completed"
+    listing_updated: "2026-05-29"
+  - title: "Sat Comms Rescue"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/sat-comms-rescue"
+    history:
+      - date: "2026-05-06"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Saving Thai"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391310-new-game-saving-thai/"
+    history:
+      - date: "2026-07-03"
+        status: "completed"
+    listing_updated: "2026-07-05"
+  - title: "Scorpion vs Frog"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/scorpion-vs-frog"
+    history:
+      - date: "2026-03-20"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Sheep The Catcher"
+    platform: "Atari 2600"
+    participants:
+      - name: "Matteo \""
+        handle: "Toolkitman"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://matteo-trevisan.itch.io/sheepthecatcheratari-2600"
+    history:
+      - date: "2026-04-04"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Shooting Stars"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/shooting-stars"
+    history:
+      - date: "2026-05-11"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Shrink Ray"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/shrink-ray"
+    history:
+      - date: "2026-05-16"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Silent Attack"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/silent-attack"
+    history:
+      - date: "2026-04-27"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Simple Game"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/simple-game"
+    history:
+      - date: "2026-04-07"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Skittels"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/skittels"
+    history:
+      - date: "2026-01-17"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Skull and Demon"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/skull-and-demon"
+    history:
+      - date: "2026-03-12"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Smiley Run"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391238-new-game-smiley-run/"
+    history:
+      - date: "2026-06-29"
+        status: "completed"
+    listing_updated: "2026-07-02"
+  - title: "Snake 2K"
+    platform: "Atari 2600"
+    participants:
+      - name: "Zynidian"
+        handle: "Zynidian"
+        roles:
+          - "Developer"
+      - name: "64j"
+        roles:
+          - "Developer"
+    rom_size: 2048
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391582-snake-2k-new-homebrew-prerelease/"
+    history:
+      - date: "2026-07-18"
+        status: "completed"
+    listing_updated: "2026-07-20"
+  - title: "Space"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390044-space-atari-2600/"
+    history:
+      - date: "2026-05-04"
+        status: "completed"
+    listing_updated: "2026-05-05"
+  - title: "Space 1999"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/six-tv-series-text-adventures"
+    history:
+      - date: "2026-04-02"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Space Base 77"
+    platform: "Atari 2600"
+    participants:
+      - name: "FM Studio"
+        handle: "FM Studio"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://fm-studio.itch.io/space-base-77"
+    history:
+      - date: "2026-05-25"
+        status: "completed"
+    listing_updated: "2026-06-10"
+  - title: "Space Bounce"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/space-bounce"
+    history:
+      - date: "2026-05-14"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Space Gladiator"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387186-space-gladiator-in-development/#comment-5773381"
+    history:
+      - date: "2026-01-08"
+        status: "wip"
+      - date: "2026-01-19"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/387548-space-gladiator-atari-2600-new-game-fun/)"
+    listing_updated: "2026-01-19"
+  - title: "Space Shield"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/space-shield"
+    history:
+      - date: "2026-06-02"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Space Trap"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/space-trap"
+    history:
+      - date: "2026-02-08"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Spray Raid"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/spray-raid"
+    history:
+      - date: "2026-04-13"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Spring Catapult"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/spring-catapult"
+    history:
+      - date: "2026-04-05"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Stage Fiend"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiki 2600 Games"
+        handle: "Kiki 2600 Games"
+        roles:
+          - "Developer"
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/380367-stage-fiend-game-for-atari-2600-released/"
+    history:
+      - date: "2025-03-14"
+        status: "completed"
+    notes:
+      - "Missed as Completed in 2025"
+    listing_updated: "2026-02-02"
+  - title: "Subwar"
+    platform: "Atari 2600"
+    participants:
+      - name: "Susan Riley"
+        handle: "Susan Riley"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://www.facebook.com/groups/29814905254?multi_permalinks=10164192117965255&hoisted_section_header_type=recently_seen"
+    history:
+      - date: "2026-04-09"
+        status: "completed"
+    listing_updated: "2026-04-09"
+  - title: "Synco Reco"
+    platform: "Atari 2600"
+    participants:
+      - name: "Duane Alan Hahn"
+        handle: "Random Terrain"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392459-synco-reco-demo/"
+    history:
+      - date: "2026-08-30"
+        status: "completed"
+    notes:
+      - "Made with AI"
+    listing_updated: "2026-08-30"
+  - title: "Tex Miller"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/tex-miller"
+    history:
+      - date: "2026-01-04"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "Thunder - Tank"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiki 2600 Games"
+        handle: "Kiki 2600 Games"
+        roles:
+          - "Developer"
+      - name: "Mirsad Sarajlic"
+        handle: "kikipdph"
+        roles:
+          - "Developer"
+      - name: "AJMcLovin"
+        handle: "AJMcLovin"
+        roles:
+          - "Idea"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389732-thunder-tank-atari-2600-wip/"
+    history:
+      - date: "2026-06-05"
+        status: "completed"
+    listing_updated: "2026-06-05"
+  - title: "Tiny Pong"
+    platform: "Atari 2600"
+    participants:
+      - name: "R3dqz"
+        handle: "R3dqz"
+        roles:
+          - "Developer"
+    rom_size: 256
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388274-tiny-pong-256b-finished/"
+    history:
+      - date: "2026-02-15"
+        status: "completed"
+    listing_updated: "2026-02-16"
+  - title: "TONY Montezuma's Gold"
+    platform: "Atari 2600"
+    participants:
+      - name: "Ketil Ronne"
+        handle: "Magovinna"
+        roles:
+          - "Developer"
+      - name: "Adam Gilmore"
+        roles:
+          - "Music"
+      - name: "Rafał Dudek"
+        handle: "RafalDudek"
+        roles:
+          - "Concept"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/383368-tony-montezumas-gold-atari-2600/#comment-5836161"
+    history:
+      - date: "2026-05-12"
+        status: "completed"
+      - date: "2026-05-13"
+        status: "completed"
+    notes:
+      - "Also available for Amiga, Amstrad CPC, Atari ST, Atari 8-Bit, GBA, C64 & NES"
+    listing_updated: "2026-05-29"
+  - title: "Travel Plane"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392112-travel-plane-atari-2600-new-games/"
+    history:
+      - date: "2026-08-13"
+        status: "completed"
+    listing_updated: "2026-08-15"
+  - title: "TubeDraw"
+    platform: "Atari 2600"
+    participants:
+      - name: "Gamax"
+        roles:
+          - "Developer"
+      - name: "Craig Daniels"
+        handle: "aganarr"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389338-my-first-game-release-tubedraw-%E2%80%93-puzzle-game-wip-1024-puzzles-code-based-progression/"
+    history:
+      - date: "2026-04-15"
+        status: "completed"
+    listing_updated: "2026-04-16"
+  - title: "Turbo Bricks"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/turbo-bricks"
+    history:
+      - date: "2026-02-21"
+        status: "completed"
+    listing_updated: "2026-03-22"
+  - title: "TV POWWW!"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "Xan"
+        handle: "Xan"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391633-tv-powww-atari-2600-new-games/"
+    history:
+      - date: "2026-07-20"
+        status: "completed"
+    listing_updated: "2026-07-21"
+  - title: "Vermin Buster"
+    platform: "Atari 2600"
+    participants:
+      - name: "Juegos Nuestros"
+        handle: "The Storyteller"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386767-vermin-buster-homebrew-for-atari-2600/"
+    history:
+      - date: "2025-12-22"
+        status: "completed"
+      - date: "2026-02-16"
+        status: "completed"
+    notes:
+      - "Completed in 2025"
+    listing_updated: "2026-02-16"
+  - title: "Virus"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/virus"
+    history:
+      - date: "2026-06-05"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Volt Charge"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marc Vittorini"
+        handle: "Marc Vittorini"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://marc-vittorini.itch.io/volt-charge"
+    history:
+      - date: "2026-05-31"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "Wild Canyon"
+    platform: "Atari 2600"
+    participants:
+      - name: "Matteo \""
+        handle: "Toolkitman"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://matteo-trevisan.itch.io/wild-canyon-atari-2600"
+    history:
+      - date: "2026-04-01"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Wolfenstein 3D"
+    platform: "Atari 2600"
+    participants:
+      - name: "FiGCdev"
+        handle: "FiGCdev"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://figcdev.itch.io/wolfenstein-3d-atari2600"
+    history:
+      - date: "2026-06-03"
+        status: "completed"
+    listing_updated: "2026-06-08"
+  - title: "ACTION!"
+    platform: "Atari 2600"
+    participants:
+      - name: "Aegis Games"
+        handle: "Aegis Games"
+        roles:
+          - "Developer"
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387925-action/"
+    history:
+      - date: "2026-02-01"
+        status: "wip"
+    notes:
+      - "Contains Games nO fOOd (https://forums.atariage.com/topic/387691-no-cookies/) and feed me (https://forums.atariage.com/blogs/entry/19758-feed-me/)"
+    listing_updated: "2026-02-03"
+  - title: "Adventure Duel"
+    platform: "Atari 2600"
+    participants:
+      - name: "Paradroid1793"
+        handle: "techy2600"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388094-wip-adventure-duel/"
+    history:
+      - date: "2026-02-14"
+        status: "wip"
+    listing_updated: "2026-02-16"
+  - title: "Alien Buzzardz"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390728-alien-buzzerz-atari-2600/"
+    history:
+      - date: "2026-06-06"
+        status: "wip"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/390727-i-have-programmed-my-own-space-inspired-game/)"
+    listing_updated: "2026-06-08"
+  - title: "Alien Football"
+    platform: "Atari 2600"
+    participants:
+      - name: "youssef errai 2013"
+        handle: "youssef errai 2013"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389614-i-make-my-first-atari-game-and-im-13/"
+    history:
+      - date: "2026-04-15"
+        status: "wip"
+    listing_updated: "2026-04-20"
+  - title: "Amp'd"
+    platform: "Atari 2600"
+    participants:
+      - name: "Artisan Retro Games"
+        handle: "Artisan Retro Games"
+        roles:
+          - "Developer"
+      - name: "Michael Scott Bachman"
+        handle: "Mike_at_AEI"
+        roles:
+          - "Developer"
+    rom_size: 92160
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388414-ampd-can-rock-n-roll-save-the-day-demo-binary/"
+    listing_updated: "2026-04-13"
+  - title: "As Criaturas"
+    platform: "Atari 2600"
+    participants:
+      - name: "Thiago Lima"
+        handle: "baller"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387634-as-criaturas-atari-jogo-brasileiro-brazil/"
+    history:
+      - date: "2026-01-22"
+        status: "wip"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/387635-as-criaturas-atari-jogo-brasileiro-brazil/)"
+    listing_updated: "2026-01-26"
+  - title: "Athlos"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392465-athlos-a-new-homebrew-game-in-development-for-2026/"
+    listing_updated: "2026-08-30"
+  - title: "Bag Boy"
+    platform: "Atari 2600"
+    participants:
+      - name: "Grocer Games"
+        handle: "Grocer Games"
+        roles:
+          - "Developer"
+      - name: "Kevin Kelley"
+        handle: "KevKelley"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/283699-wip-bag-boy/"
+    history:
+      - date: "2019-08-05"
+        status: "wip"
+      - date: "2026-06-08"
+        status: "wip"
+    listing_updated: "2026-06-09"
+  - title: "Baitax"
+    platform: "Atari 2600"
+    participants:
+      - name: "Adam David Taylor"
+        handle: "AdTails"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390202-my-first-2600-game-baitax/"
+    history:
+      - date: "2026-06-11"
+        status: "wip"
+    listing_updated: "2026-06-11"
+  - title: "Ball Strike"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390038-ball-strike-atari-2600/"
+    history:
+      - date: "2026-05-03"
+        status: "wip"
+    listing_updated: "2026-05-04"
+  - title: "Basketball"
+    platform: "Atari 2600"
+    participants:
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387122-basketball-1-or-2-players/"
+    history:
+      - date: "2026-01-05"
+        status: "wip"
+    listing_updated: "2026-01-06"
+  - title: "Beni - Hidden Treasures"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391058-beni-hidden-treasures-a-homebrew-inspired-by-pitfall-and-indiana-jones/"
+    listing_updated: "2026-06-25"
+  - title: "Beyond Parsec - Planetary Defense"
+    platform: "Atari 2600"
+    participants:
+      - name: "Grocer Games"
+        handle: "Grocer Games"
+        roles:
+          - "Developer"
+      - name: "Kevin Kelley"
+        handle: "KevKelley"
+        roles:
+          - "Developer"
+    rom_size: 104448
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/349276-wip-port-beyond-parsec/"
+    history:
+      - date: "2023-09-25"
+        status: "wip"
+      - date: "2026-08-18"
+        status: "wip"
+    listing_updated: "2026-08-20"
+  - title: "Bit War"
+    platform: "Atari 2600"
+    participants:
+      - name: "Brian Jones"
+        handle: "prawk"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390298-bit-war-a-simple-100-ai-game/"
+    history:
+      - date: "2026-05-28"
+        status: "wip"
+    notes:
+      - "Made with AI"
+    listing_updated: "2026-05-29"
+  - title: "Blitz"
+    platform: "Atari 2600"
+    participants:
+      - name: "Maximus Games"
+        handle: "Maximus Games"
+        roles:
+          - "Developer"
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391777-blitz-a-deathmatch-game/"
+    history:
+      - date: "2026-08-06"
+        status: "wip"
+    listing_updated: "2026-08-06"
+  - title: "Block Game 1K"
+    platform: "Atari 2600"
+    participants:
+      - name: "Eeth Savage"
+        handle: "eethsavage"
+        roles:
+          - "Developer"
+    rom_size: 1024
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390626-collect-a-very-simple-1k-game/"
+    history:
+      - date: "2026-06-01"
+        status: "wip"
+    listing_updated: "2026-06-02"
+  - title: "Block-Hunt"
+    platform: "Atari 2600"
+    participants:
+      - name: "Axel Schulze-Halberg"
+        handle: "xbataxel"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387071-block-hunt-homebrew-game-runtime-playfield-modification/"
+    history:
+      - date: "2026-01-01"
+        status: "wip"
+    listing_updated: "2026-01-01"
+  - title: "Bocce"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alberto"
+        handle: "jab"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389758-bocce/"
+    history:
+      - date: "2026-04-28"
+        status: "wip"
+    listing_updated: "2026-04-28"
+  - title: "Box Dodger"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389974-box-dodger-atari-2600/"
+    history:
+      - date: "2026-04-30"
+        status: "wip"
+    listing_updated: "2026-05-04"
+  - title: "Builder Bruce"
+    platform: "Atari 2600"
+    participants:
+      - name: "Bruce Seymour"
+        handle: "blockrush"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392060-homebrew-builder-bruce/"
+    history:
+      - date: "2026-08-11"
+        status: "completed"
+    listing_updated: "2026-08-12"
+  - title: "Catty Bird"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alberto"
+        handle: "jab"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389057-catty-bird/"
+    history:
+      - date: "2026-03-23"
+        status: "wip"
+    listing_updated: "2026-03-23"
+  - title: "Chaka-Tak"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389705-chaka-tak-a-new-homebrew-horror-comedy/"
+    listing_updated: "2026-04-20"
+  - title: "Congo Bongo"
+    platform: "Atari 2600"
+    participants:
+      - name: "Philip Blackman"
+        handle: "splendidnut"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/324796-congo-bongo-poc/"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/315431-congo-bongo/)"
+    listing_updated: "2026-07-08"
+  - title: "Crazynoid"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alberto"
+        handle: "jab"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387642-crazynoid/"
+    history:
+      - date: "2026-01-24"
+        status: "wip"
+    listing_updated: "2026-01-26"
+  - title: "Crossbeam"
+    platform: "Atari 2600"
+    participants:
+      - name: "David Marli"
+        handle: "DaveM"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/381984-crossbeam-new-wip-homebrew-shooter/"
+    history:
+      - date: "2026-08-02"
+        status: "wip"
+    listing_updated: "2026-08-05"
+  - title: "Curiocho"
+    platform: "Atari 2600"
+    participants:
+      - name: "Trioptrooper"
+        handle: "Trioptrooper"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392383-curiocho/"
+    history:
+      - date: "2026-08-24"
+        status: "wip"
+    listing_updated: "2026-08-26"
+  - title: "Cursed Pac"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388890-cursed-pac-games-in-development/"
+    history:
+      - date: "2026-03-16"
+        status: "wip"
+    listing_updated: "2026-03-16"
+  - title: "Cyber Elevator"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389645-cyber-elevator-demo-homebrew-2026/"
+    listing_updated: "2026-04-17"
+  - title: "Cyber Neon"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390011-cyber-neon-demo-cyber-%E2%80%8B%E2%80%8Belevator-sequel-homebrew-2026/"
+    history:
+      - date: "2026-05-03"
+        status: "wip"
+    listing_updated: "2026-05-04"
+  - title: "Death Race 2600"
+    platform: "Atari 2600"
+    participants:
+      - name: "Roy Riggs"
+        handle: "furroy"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://furroy.itch.io/death-race-2600"
+    history:
+      - date: "2026-08-12"
+        status: "completed"
+    listing_updated: "2026-08-15"
+  - title: "Dehydration"
+    platform: "Atari 2600"
+    participants:
+      - name: "Jack Bruno"
+        handle: "Larryfriendly"
+        roles:
+          - "Developer"
+      - name: "Samuel Stein"
+        handle: "tillabole"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388333-dehydration-wip/"
+    history:
+      - date: "2026-02-18"
+        status: "wip"
+    listing_updated: "2026-02-18"
+  - title: "Delving"
+    platform: "Atari 2600"
+    participants:
+      - name: "Bruce-Robert Pocock"
+        handle: "Bruce-Robert Pocock"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/378073-delving-a-little-online-multiplayer-rpg-for-plusrom/"
+    notes:
+      - "Played through PlusCart or Internet Enabled Emulator"
+    listing_updated: "2026-01-26"
+  - title: "Derbyoils"
+    platform: "Atari 2600"
+    participants:
+      - name: "Trioptrooper"
+        handle: "Trioptrooper"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392075-building-a-game-sketch-derbyoils/"
+    history:
+      - date: "2026-08-12"
+        status: "wip"
+    listing_updated: "2026-08-03"
+  - title: "Desert Bus"
+    platform: "Atari 2600"
+    participants:
+      - name: "Thomas Fenner"
+        handle: "darthtom1972"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391857-wip-game-desert-bus-2600-by-thomas-fenner/"
+    history:
+      - date: "2026-07-31"
+        status: "wip"
+    listing_updated: "2026-08-03"
+  - title: "Dessert Disaster!"
+    platform: "Atari 2600"
+    participants:
+      - name: "kidirata"
+        handle: "kidirata"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/325036-dessert-disaster-wip-food-fight-port-to-the-2600/"
+    history:
+      - date: "2026-06-03"
+        status: "wip"
+    listing_updated: "2026-06-03"
+  - title: "Disc Match"
+    platform: "Atari 2600"
+    participants:
+      - name: "KainXavier"
+        handle: "KainXavier"
+        roles:
+          - "Developer"
+    rom_size: 65536
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/384121-disc-match-wip/"
+    listing_updated: "2026-07-31"
+  - title: "Draculvania"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 65536
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/371140-dracuvania-wip-mini-castlevania-port/"
+    notes:
+      - "Previously named Dracuvania"
+    listing_updated: "2026-07-29"
+  - title: "Dragon Fantasy: The Final Quest"
+    platform: "Atari 2600"
+    participants:
+      - name: "Krunkcleanup"
+        handle: "Krunkcleanup"
+        roles:
+          - "Developer"
+    rom_size: 65536
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391662-new-game-dragon-fantasy-the-final-quest/"
+    history:
+      - date: "2026-08-22"
+        status: "wip"
+    listing_updated: "2026-08-26"
+  - title: "Escabeche"
+    platform: "Atari 2600"
+    participants:
+      - name: "Trioptrooper"
+        handle: "Trioptrooper"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392246-escabeche-pal-50hz-a26/"
+    history:
+      - date: "2026-08-22"
+        status: "wip"
+    listing_updated: "2026-08-26"
+  - title: "EVIL: The Hunt for Kremas"
+    platform: "Atari 2600"
+    participants:
+      - name: "Brad"
+        handle: "ManCaveArcade"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389264-new-atari-2600-homebrew-%E2%80%94-evil-the-hunt-for-kremas-inspired-by-odyssey-evil/"
+    history:
+      - date: "2026-05-24"
+        status: "completed"
+    listing_updated: "2026-06-01"
+  - title: "Flies and Hummingbirds 2"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391123-flies-and-hummingbirds-2-the-sequel/"
+    history:
+      - date: "2026-06-23"
+        status: "wip"
+    listing_updated: "2026-06-24"
+  - title: "Floors"
+    platform: "Atari 2600"
+    participants:
+      - name: "Mauro Casu"
+        handle: "kamaleon70"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391254-a-new-wip-game-floors/"
+    history:
+      - date: "2026-06-30"
+        status: "wip"
+    listing_updated: "2026-07-02"
+  - title: "Frank The Fruit Fly"
+    platform: "Atari 2600"
+    participants:
+      - name: "Aegis Games"
+        handle: "Aegis Games"
+        roles:
+          - "Developer"
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391246-frank-the-fruit-fly-atari-2600-version/"
+    history:
+      - date: "2026-08-10"
+        status: "wip"
+    listing_updated: "2026-08-12"
+  - title: "Goobert"
+    platform: "Atari 2600"
+    participants:
+      - name: "MausGames"
+        handle: "MausGames"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389886-goobert-a-new-32k-dpc-platformer-wip/"
+    history:
+      - date: "2026-06-02"
+        status: "wip"
+    listing_updated: "2026-06-02"
+  - title: "GP Rally"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alberto"
+        handle: "jab"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388396-gp-rally/"
+    history:
+      - date: "2026-02-21"
+        status: "wip"
+    listing_updated: "2026-02-23"
+  - title: "Green Test Game"
+    platform: "Atari 2600"
+    participants:
+      - name: "Demos For Classic Atari"
+        handle: "Demos For Classic Atari"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389912-my-first-games/"
+    history:
+      - date: "2026-04-27"
+        status: "wip"
+    listing_updated: "2026-05-04"
+  - title: "Gunship Bravo"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marco Johannes"
+        handle: "MarcoJ"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/378270-gunship-atari-2600-wip/"
+    notes:
+      - "Previously Nominated for Best WIP in 2024"
+    listing_updated: "2026-03-20"
+  - title: "Hex Invaders"
+    platform: "Atari 2600"
+    participants:
+      - name: "Windless"
+        handle: "Windless"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388287-hex-invader-binary-shootemup/"
+    history:
+      - date: "2026-07-20"
+        status: "wip"
+    listing_updated: "2026-07-08"
+  - title: "Horrible Ghosts of Uranus, The"
+    platform: "Atari 2600"
+    participants:
+      - name: "Aegis Games"
+        handle: "Aegis Games"
+        roles:
+          - "Developer"
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 2048
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387774-the-horrible-ghosts-of-uranus/"
+    history:
+      - date: "2026-01-30"
+        status: "wip"
+    listing_updated: "2026-01-31"
+  - title: "Jabuti"
+    platform: "Atari 2600"
+    participants:
+      - name: "EdSenos"
+        handle: "EdSenos"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391382-jabuti-odyssey%C2%B2-port/"
+    history:
+      - date: "2026-07-07"
+        status: "wip"
+    notes:
+      - "Made with AI"
+    listing_updated: "2026-07-09"
+  - title: "Karate Man"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389503-karate-man-homebrew-2026/"
+    listing_updated: "2026-04-13"
+  - title: "Kosho"
+    platform: "Atari 2600"
+    participants:
+      - name: "Mauro Casu"
+        handle: "kamaleon70"
+        roles:
+          - "Programming"
+      - name: "ZXAmaze"
+        handle: "ZXAmaze"
+        roles:
+          - "Splash Screen"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392475-kosho-a-new-atari-2600-game/"
+    history:
+      - date: "2026-08-30"
+        status: "wip"
+    listing_updated: "2026-08-30"
+  - title: "Lane Assault"
+    platform: "Atari 2600"
+    participants:
+      - name: "Mauro Casu"
+        handle: "kamaleon70"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390577-lane-assault-a-code-snap-2600-game/"
+    history:
+      - date: "2026-05-30"
+        status: "wip"
+    listing_updated: "2026-06-02"
+  - title: "LazBall"
+    platform: "Atari 2600"
+    participants:
+      - name: "TK"
+        handle: "ttkk"
+        roles:
+          - "Developer"
+    rom_size: 2048
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391409-lazball-a-vcs-game-with-bin-asm-source/"
+    history:
+      - date: "2026-07-08"
+        status: "wip"
+    listing_updated: "2026-07-09"
+  - title: "Legend of Nyomi Arcade Editon, The"
+    platform: "Atari 2600"
+    participants:
+      - name: "Ecernosoft"
+        handle: "Ecernosoft"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387786-the-legend-of-nyomi-arcade-editon-should-i-finish-it/"
+    history:
+      - date: "2026-01-29"
+        status: "wip"
+    listing_updated: "2026-01-29"
+  - title: "Little Edge One In Greece, The"
+    platform: "Atari 2600"
+    participants:
+      - name: "Thomas Fenner"
+        handle: "darthtom1972"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391993-new-jump-and-run-game-the-little-edge-one-in-greece/"
+    history:
+      - date: "2026-08-06"
+        status: "wip"
+    listing_updated: "2026-08-12"
+  - title: "Making Faces"
+    platform: "Atari 2600"
+    participants:
+      - name: "Aegis Games"
+        handle: "Aegis Games"
+        roles:
+          - "Developer"
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389409-making-faces/"
+    history:
+      - date: "2026-04-07"
+        status: "wip"
+    listing_updated: "2026-04-08"
+  - title: "Metal Shot"
+    platform: "Atari 2600"
+    participants:
+      - name: "dan22000"
+        handle: "dan22000"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392094-metal-shot-demake-of-a-metal-slug-style-game/"
+    history:
+      - date: "2026-08-12"
+        status: "wip"
+    listing_updated: "2026-08-17"
+  - title: "Mr. Postman Is Back"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/382878-mr-postman-is-back-old-title-sr-mensageiro-year-2025/"
+    notes:
+      - "Previously named Sr. Mensageiro"
+    listing_updated: "2026-06-01"
+  - title: "Murk, The"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kiliano Lopes"
+        handle: "Kiliano Lopes"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392260-the-murk-horror-game-prototype-for-atari-2600/"
+    history:
+      - date: "2026-08-20"
+        status: "completed"
+    listing_updated: "2026-08-20"
+  - title: "Mutatis"
+    platform: "Atari 2600"
+    participants:
+      - name: "William J. Meyer"
+        handle: "William J. Meyer"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://bywilliamjmeyer.itch.io/mutatis"
+    history:
+      - date: "2026-01-31"
+        status: "wip"
+    notes:
+      - "Part of I Rebel: A Jeff Minter Game Jam (https://atari.com/pages/i-rebel-a-jeff-minter-game-jam)"
+    listing_updated: "2026-02-05"
+  - title: "Night Shot"
+    platform: "Atari 2600"
+    participants:
+      - name: "Nicholas Monson"
+        handle: "Drozerix"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389418-new-atari-2600-homebrew-game-night-shot/"
+    history:
+      - date: "2026-04-07"
+        status: "wip"
+    listing_updated: "2026-04-13"
+  - title: "Nitro-Girl"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alejandro Burgueño Díaz"
+        handle: "spoongas"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392142-nitro-girl-atari-2600-homebrew/"
+    history:
+      - date: "2026-08-14"
+        status: "wip"
+    listing_updated: "2026-08-15"
+  - title: "nO cOOkies"
+    platform: "Atari 2600"
+    participants:
+      - name: "Aegis Games"
+        handle: "Aegis Games"
+        roles:
+          - "Developer"
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 1024
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387691-no-cookies/"
+    history:
+      - date: "2026-01-25"
+        status: "wip"
+    listing_updated: "2026-01-26"
+  - title: "nO fOOd"
+    platform: "Atari 2600"
+    participants:
+      - name: "Aegis Games"
+        handle: "Aegis Games"
+        roles:
+          - "Developer"
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 2048
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387691-no-cookies/"
+    history:
+      - date: "2026-01-28"
+        status: "wip"
+    notes:
+      - "Game incorporated into ACTION! (https://forums.atariage.com/topic/387925-action/)"
+    listing_updated: "2026-01-29"
+  - title: "No Quarter"
+    platform: "Atari 2600"
+    participants:
+      - name: "Jess Ragan"
+        handle: "Jess Ragan"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392372-no-quarter-the-first-jesscreations-2600-game-in-twenty-years/"
+    history:
+      - date: "2026-08-31"
+        status: "wip"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/392280-well-its-a-start-money-warsheadbangers-heaven-clone/) / Alternate Thread (https://forums.atariage.com/topic/392402-no-quarter-for-your-atari-2600/)"
+    listing_updated: "2026-08-31"
+  - title: "NWA Wrestling"
+    platform: "Atari 2600"
+    participants:
+      - name: "Jason Caraway"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://youtu.be/EvyOaMedlbw?si=fBW6UVJOb9HvzfYP&t=1364"
+    history:
+      - date: "2025-10-21"
+        status: "completed"
+    notes:
+      - "Missed in 2025 Listing"
+    listing_updated: "2026-03-18"
+  - title: "Oil Jumper"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390004-oil-jumper-atari-2600/"
+    history:
+      - date: "2026-05-02"
+        status: "wip"
+    listing_updated: "2026-05-04"
+  - title: "Old Bathtub"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390469-old-bathtub-homebrew-inspired-by-bank-heist/"
+    listing_updated: "2026-05-29"
+  - title: "Old West - Renaissance"
+    platform: "Atari 2600"
+    participants:
+      - name: "Alfredo Arias"
+        handle: "alfredtdk"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/378616-old-west-renaissance-new-project-2026/"
+    notes:
+      - "Previously Named 'Old West'"
+    listing_updated: "2026-02-03"
+  - title: "Onward"
+    platform: "Atari 2600"
+    participants:
+      - name: "Victor Brusca"
+        handle: "vacuous_b"
+        roles:
+          - "Developer"
+      - name: "Carlos Brusca"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389551-new-game-late-beta-onward-2026/"
+    history:
+      - date: "2026-08-10"
+        status: "wip"
+    listing_updated: "2026-08-12"
+  - title: "Ozener"
+    platform: "Atari 2600"
+    participants:
+      - name: "Samuel Stein"
+        handle: "tillabole"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387994-ozener-an-atari-2600-homebrew/"
+    history:
+      - date: "2026-02-09"
+        status: "wip"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/387862-an-untitled-platformer/) / Was \"Untitled Platformer\""
+    listing_updated: "2026-02-11"
+  - title: "P.K.E."
+    platform: "Atari 2600"
+    participants:
+      - name: "Matthew Younce"
+        handle: "mwyounce"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390745-wip-pke-a-new-ghostbusters-inspired-2600-homebrew/"
+    history:
+      - date: "2026-06-19"
+        status: "wip"
+    listing_updated: "2026-06-22"
+  - title: "Plague!"
+    platform: "Atari 2600"
+    participants:
+      - name: "Kamil Trzaska"
+        handle: "gorgh"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://www.youtube.com/watch?v=neGw5ntxlfs"
+    history:
+      - date: "2026-04-28"
+        status: "completed"
+    listing_updated: "2026-04-29"
+  - title: "Plesiosaur Day War"
+    platform: "Atari 2600"
+    participants:
+      - name: "Trioptrooper"
+        handle: "Trioptrooper"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389981-plesiosaur-day-war/"
+    history:
+      - date: "2026-05-01"
+        status: "wip"
+    listing_updated: "2026-05-04"
+  - title: "Pollinator"
+    platform: "Atari 2600"
+    participants:
+      - name: "SpareHead3"
+        handle: "SpareHead3"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392183-pollinator-protect-your-flower-field/"
+    history:
+      - date: "2026-08-29"
+        status: "wip"
+    listing_updated: "2026-08-30"
+  - title: "Pong of War"
+    platform: "Atari 2600"
+    participants:
+      - name: "bent_pin"
+        handle: "bent_pin"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391998-pong-of-war-%E2%80%94-arcade-combat-strategy-4k-stock-2600-wip/"
+    history:
+      - date: "2026-08-09"
+        status: "completed"
+    listing_updated: "2026-08-12"
+  - title: "Quad Dodger"
+    platform: "Atari 2600"
+    participants:
+      - name: "wufsoft"
+        handle: "wufsoft"
+        roles:
+          - "Developer"
+    rom_size: 2048
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392053-quad-dodger-new-homebrew/"
+    history:
+      - date: "2026-08-10"
+        status: "wip"
+    listing_updated: "2026-08-19"
+  - title: "Quest! Water Shield"
+    platform: "Atari 2600"
+    participants:
+      - name: "Olioni Games"
+        handle: "Olioni Games"
+        roles:
+          - "Developer"
+      - name: "João Pedro F. Olioni"
+        handle: "OlioniGamesInc"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392242-quest-water-shield-game-in-development/"
+    history:
+      - date: "2026-08-19"
+        status: "wip"
+    listing_updated: "2026-08-19"
+  - title: "Realm of Paradoa"
+    platform: "Atari 2600"
+    participants:
+      - name: "xird"
+        handle: "xird"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389773-realm-of-paradoa-it-compiles/"
+    history:
+      - date: "2026-04-21"
+        status: "completed"
+    notes:
+      - "Made with AI"
+    listing_updated: "2026-04-23"
+  - title: "Room Raiders"
+    platform: "Atari 2600"
+    participants:
+      - name: "Grocer Games"
+        handle: "Grocer Games"
+        roles:
+          - "Developer"
+      - name: "Kevin Kelley"
+        handle: "KevKelley"
+        roles:
+          - "Developer"
+    rom_size: 65536
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://www.youtube.com/watch?v=27xd6WfnODM"
+    listing_updated: "2026-03-12"
+  - title: "RUN51"
+    platform: "Atari 2600"
+    participants:
+      - name: "MausGames"
+        handle: "MausGames"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390156-run51-endless-runner-for-atari-2600/"
+    history:
+      - date: "2026-06-02"
+        status: "wip"
+    listing_updated: "2026-06-02"
+  - title: "Run From The Police"
+    platform: "Atari 2600"
+    participants:
+      - name: "cosmico00101"
+        handle: "cosmico00101"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391722-new-game-run-from-the-police-aka-rftp/"
+    history:
+      - date: "2026-07-25"
+        status: "wip"
+    listing_updated: "2026-07-26"
+  - title: "SeaQuential"
+    platform: "Atari 2600"
+    participants:
+      - name: "Lewis2907"
+        handle: "Lewis2907"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/355050-seaquential/"
+    history:
+      - date: "2026-08-11"
+        status: "wip"
+    listing_updated: "2026-08-12"
+  - title: "Snake Escape"
+    platform: "Atari 2600"
+    participants:
+      - name: "Demos For Classic Atari"
+        handle: "Demos For Classic Atari"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389912-my-first-games/"
+    history:
+      - date: "2026-04-27"
+        status: "wip"
+    listing_updated: "2026-05-04"
+  - title: "Space Taxi"
+    platform: "Atari 2600"
+    participants:
+      - name: "Jeff Haber"
+        handle: "Just Jeff"
+        roles:
+          - "Developer"
+    rom_size: 65536
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/261054-wip-space-taxi/"
+    notes:
+      - "Previously Nominated for AHA Best WIP"
+    listing_updated: "2026-01-11"
+  - title: "StalaX"
+    platform: "Atari 2600"
+    participants:
+      - name: "Thomas Jentzsch"
+        handle: "Thomas Jentzsch"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/385470-stalax-was-how-to-process-stalactites/"
+    history:
+      - date: "2026-01-15"
+        status: "wip"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/387480-stalax/)"
+    listing_updated: "2026-01-15"
+  - title: "Star Wars Battle of Hoth [AT-AT]"
+    platform: "Atari 2600"
+    participants:
+      - name: "Leandro Camara"
+        handle: "HSW3ET"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://www.youtube.com/watch?v=0Bw-1mSqKaU"
+    history:
+      - date: "2026-05-04"
+        status: "completed"
+    listing_updated: "2026-05-04"
+  - title: "Super Atario"
+    platform: "Atari 2600"
+    participants:
+      - name: "redacted"
+        handle: "redacted"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391064-super-atario-2600-homebrew-game/"
+    history:
+      - date: "2026-06-22"
+        status: "completed"
+    listing_updated: "2026-06-24"
+  - title: "Swords of Time"
+    platform: "Atari 2600"
+    participants:
+      - name: "Gabriel Velasquez"
+        handle: "gabrielman25"
+        roles:
+          - "Code and Pixel art"
+      - name: "とり夫 Torio"
+        roles:
+          - "Character and Monster Artwork"
+    rom_size: 65536
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392497-swords-of-time-2600-homebrew-with-browser-enhanced-version/"
+    history:
+      - date: "2026-08-30"
+        status: "completed"
+    listing_updated: "2026-08-30"
+  - title: "Tanks"
+    platform: "Atari 2600"
+    participants:
+      - name: "GorillaSapiens"
+        handle: "GorillaSapiens"
+        roles:
+          - "Developer"
+    rom_size: 8192
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392365-tanks-vcsc/"
+    history:
+      - date: "2026-08-24"
+        status: "wip"
+    listing_updated: "2026-08-26"
+  - title: "Transformers"
+    platform: "Atari 2600"
+    participants:
+      - name: "Creativeking"
+        handle: "Creativeking"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387602-transformers-2600-homebrew/"
+    history:
+      - date: "2026-01-21"
+        status: "wip"
+    listing_updated: "2026-01-22"
+  - title: "TubeDraw2"
+    platform: "Atari 2600"
+    participants:
+      - name: "Gamax"
+        roles:
+          - "Developer"
+      - name: "Craig Daniels"
+        handle: "aganarr"
+        roles:
+          - "Developer"
+    rom_size: 32768
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391184-tubedrawii-wip-sequelcombo-cart-in-the-works/"
+    history:
+      - date: "2026-07-12"
+        status: "completed"
+    listing_updated: "2026-07-13"
+  - title: "Turky Race"
+    platform: "Atari 2600"
+    participants:
+      - name: "Samuel Stein"
+        handle: "tillabole"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389134-turky-race/"
+    history:
+      - date: "2026-03-27"
+        status: "wip"
+    listing_updated: "2026-03-28"
+  - title: "UnPac'd"
+    platform: "Atari 2600"
+    participants:
+      - name: "Maximus Games"
+        handle: "Maximus Games"
+        roles:
+          - "Developer"
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+    rom_size: 16384
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392456-unpacd/"
+    history:
+      - date: "2026-08-31"
+        status: "wip"
+    listing_updated: "2026-08-31"
+  - title: "Up 1 Way"
+    platform: "Atari 2600"
+    participants:
+      - name: "Franco Trimboli"
+        handle: "sunpazed"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391096-up-1-way-another-ai-generated-game/"
+    history:
+      - date: "2026-06-28"
+        status: "wip"
+    notes:
+      - "Made with AI"
+    listing_updated: "2026-06-28"
+  - title: "Wall Warrior"
+    platform: "Atari 2600"
+    participants:
+      - name: "Chris Read"
+        handle: "atari2600land"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390242-wall-warrior-homebrew-wip/"
+    history:
+      - date: "2026-05-13"
+        status: "wip"
+    listing_updated: "2026-05-29"
+  - title: "War Z"
+    platform: "Atari 2600"
+    participants:
+      - name: "Marcelo Garcia"
+        handle: "Marcelo Garcia"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://warz.admin.eti.br/"
+    history:
+      - date: "2026-08-20"
+        status: "wip"
+    listing_updated: "2026-08-20"
+  - title: "Wen hop? Planet Pluto"
+    platform: "Atari 2600"
+    participants:
+      - name: "Andrew Davie"
+        handle: "Andrew Davie"
+        roles:
+          - "Developer"
+      - name: "Konstantinos Giamalidis"
+        handle: "TIX"
+        roles:
+          - "Player Sprite Graphics"
+    rom_size: 131072
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      homepage: "https://woodgrain.taswegian.com/index.php?board=47.0"
+    notes:
+      - "Previously Named \"Wen hop? The Search for Planet X\" / Alternate Thread (https://forums.atariage.com/topic/323162-wen-hop-the-search-for-planet-x/)"
+    listing_updated: "2026-07-21"
+  - title: "What's Up Blob?"
+    platform: "Atari 2600"
+    participants:
+      - name: "MausGames"
+        handle: "MausGames"
+        roles:
+          - "Developer"
+    rom_size: 106496
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391926-whats-up-blob-atari-2600-by-mausgames/"
+    history:
+      - date: "2026-08-04"
+        status: "completed"
+    listing_updated: "2026-08-05"
+  - title: "Wildnight"
+    platform: "Atari 2600"
+    participants:
+      - name: "Glenn Main"
+        handle: "Glenn Main"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      itch: "https://glenn-main.itch.io/wildnight"
+    history:
+      - date: "2026-06-12"
+        status: "wip"
+    listing_updated: "2026-06-29"
+  - title: "Zaxxon Arcade"
+    platform: "Atari 2600"
+    participants:
+      - name: "Champ Games"
+        handle: "Champ Games"
+        roles:
+          - "Developer"
+      - name: "John Champeau"
+        handle: "johnnywc"
+        roles:
+          - "Programming"
+          - "Design"
+          - "Music"
+          - "Sound Effects"
       - name: "Nathan Strum"
         handle: "Nathan Strum"
         roles:
-          - "Packaging"
-
-    rom_size: 4096
-    players:
-      - 1
-      - 2
-
-    accessories:
-      required:
-        - "Joystick"
-
-      optional:
-        - "AtariVox"
-        - "SaveKey"
-    status: completed
-    physical_release: true
-
+          - "Graphics"
+          - "Design"
+          - "Packaging & Layout"
+      - name: "Dave Dries"
+        handle: "DaveD"
+        roles:
+          - "Packaging Art & Illustrations"
+    rom_size: 65536
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
     urls:
-      atariage: "https://forums.atariage.com/topic/390474-amoeba-jump-tower-of-rubble-plus-editions-for-europe/"
+      atariage: "https://forums.atariage.com/topic/390075-champ-games-zaxxon-arcade-atari-2600/"
     history:
-      - date: "2026-02-20"
-        status: wip
-
-      - date: "2026-05-25"
-        status: completed
-
-      - date: "2026-05-25"
-        status: physical_release
-
+      - date: "2026-06-16"
+        status: "wip"
+    listing_updated: "2026-06-17"
+  - title: "Zoop"
+    platform: "Atari 2600"
+    participants:
+      - name: "the60ftatomicman"
+        handle: "the60ftatomicman"
+        roles:
+          - "Developer"
+    rom_size: 4096
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-2600-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391110-wip-zoop/"
+    history:
+      - date: "2026-07-04"
+        status: "wip"
+    listing_updated: "2026-07-05"
+  - title: "Pengo"
+    platform: "Atari 7800"
+    participants:
+      - name: "20th St Arcade"
+        roles:
+          - "Developer"
+      - name: "Darryl Guenther"
+        handle: "darryl1970"
+        roles:
+          - "Developer"
+      - name: "Paul Lay"
+        handle: "playsoft"
+        roles:
+          - "Music & Music Engine"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/325806-pengo/"
+    history:
+      - date: "2023-04-14"
+        status: "completed"
+      - date: "2026-05-12"
+        status: "physical_release"
+      - date: "2026-06-25"
+        status: "physical_release"
+    notes:
+      - "Also known as PentaGo"
+    listing_updated: "2026-06-30"
+  - title: "Phoenix 7800"
+    platform: "Atari 7800"
+    participants:
+      - name: "Sean Callahan"
+        handle: "Seanahan"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388869-new-game-port-phoenix-7800-wip/"
+    history:
+      - date: "2026-05-21"
+        status: "physical_release"
+      - date: "2026-06-19"
+        status: "completed"
+      - date: "2026-06-26"
+        status: "physical_release"
+    listing_updated: "2026-06-25"
+  - title: "StoneAge"
+    platform: "Atari 7800"
+    publishers:
+      - "AtariAge"
+    participants:
+      - name: "Anthony Quinlan"
+        handle: "TwentySixHundred"
+        roles:
+          - "Programming"
+      - name: "Konstantinos Giamalidis"
+        handle: "TIX"
+        roles:
+          - "Artist"
+      - name: "Christian 'Buddy1976' Düsterhöft"
+        roles:
+          - "Music"
+      - name: "William Thorup"
+        handle: "BitJag"
+        roles:
+          - "Packaging"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/355316-stoneage-wip/"
+    history:
+      - date: "2025-10-17"
+        status: "completed"
+      - date: "2026-04-24"
+        status: "physical_release"
+    notes:
+      - ""
+      - "Completed in 2025 / Previously nominated for Best WIP (https://forums.atariage.com/topic/349404-atari-homebrew-awards-history-faq/)"
+    listing_updated: "2026-04-16"
   - title: "Awass"
     platform: "Atari 7800"
-
     participants:
       - name: "Inufuto"
         handle: "Inufuto"
         roles:
           - "Developer"
-
-    rom_size: 8192
-    players:
-      - 1
-
-    accessories:
-      required:
-        - "Joystick"
-      optional: []
-
-    status: completed
+    status: "completed"
     physical_release: false
-
+    sources:
+      - "atariage-7800-2026"
     urls:
       homepage: "http://inufuto.web.fc2.com/8bit/awass/"
     history:
       - date: "2026-01-20"
-        status: completed
-
-      - date: " 2026-01-20"
-        status: physical_release
+        status: "completed"
+    notes:
+      - "Cross platform build of game"
+    listing_updated: "2026-01-22"
+  - title: "Baseball Dice"
+    platform: "Atari 7800"
+    participants:
+      - name: "Maximus Games"
+        handle: "Maximus Games"
+        roles:
+          - "Developer"
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388460-baseball-dice/"
+    history:
+      - date: "2026-02-23"
+        status: "completed"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/363074-home-run-baseball/?do=findComment&comment=5429166)"
+    listing_updated: "2026-03-08"
+  - title: "Legend of Nyomi, The"
+    platform: "Atari 7800"
+    participants:
+      - name: "Ecernosoft"
+        handle: "Ecernosoft"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/385248-its-cyrus-time-4-the-legend-of-nyomi-prototype-and-beyond/"
+    history:
+      - date: "2025-11-17"
+        status: "completed"
+      - date: "2026-02-22"
+        status: "completed"
+    notes:
+      - "Completed in 2025"
+    listing_updated: "2026-02-23"
+  - title: "Rogue"
+    platform: "Atari 7800"
+    participants:
+      - name: "Thomas J. Rogers"
+        handle: "tjrtech"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391707-atari-7800-rogue-homebrew/"
+    history:
+      - date: "2026-08-03"
+        status: "completed"
+    listing_updated: "2026-08-03"
+  - title: "SwordWork"
+    platform: "Atari 7800"
+    participants:
+      - name: "Inufuto"
+        handle: "Inufuto"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      homepage: "http://inufuto.web.fc2.com/8bit/sword/"
+    history:
+      - date: "2026-05-02"
+        status: "completed"
+    notes:
+      - "Cross platform build of game"
+    listing_updated: "2026-05-04"
+  - title: "Waffle Painter"
+    platform: "Atari 7800"
+    participants:
+      - name: "Vivian Video"
+        handle: "Vivian Video"
+        roles:
+          - "Developer"
+      - name: "Brandon Vivian"
+        handle: "Sky"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386600-waffle-painter/"
+    history:
+      - date: "2025-11-24"
+        status: "completed"
+      - date: "2026-01-22"
+        status: "completed"
+    listing_updated: "2026-01-22"
+  - title: "Alpine Avenger"
+    platform: "Atari 7800"
+    participants:
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+      - name: "H3xaFli6ht"
+        handle: "H3xaFli6ht"
+        roles:
+          - "Music"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/369201-alpine-avenger/"
+    notes:
+      - "Previously nominated for best WIP"
+    listing_updated: "2026-08-13"
+  - title: "Astro Wing: Starfighter"
+    platform: "Atari 7800"
+    participants:
+      - name: "Jason Rowe"
+        handle: "astroguy"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387574-astro-wing-starfighter/"
+    history:
+      - date: "2026-01-26"
+        status: "wip"
+    listing_updated: "2026-01-27"
+  - title: "Balloon Saw 7800"
+    platform: "Atari 7800"
+    participants:
+      - name: "Steve Fulton"
+        handle: "fultonbot"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389374-balloon-saw-7800-beta/"
+    history:
+      - date: "2026-04-05"
+        status: "wip"
+    notes:
+      - "Remake of dev's Flash game Balloon Saw"
+    listing_updated: "2026-04-05"
+  - title: "Black Forest"
+    platform: "Atari 7800"
+    participants:
+      - name: "Chris Wiese"
+        handle: "dragonsbrethren"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/377834-black-forest-wip/"
+    listing_updated: "2026-04-29"
+  - title: "Dragon's Verse"
+    platform: "Atari 7800"
+    participants:
+      - name: "Todd Furmanski"
+        handle: "Revontuli"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/385355-dragons-verse-wip-rpg-for-the-7800/"
+    history:
+      - date: "2026-04-06"
+        status: "wip"
+    listing_updated: "2026-04-06"
+  - title: "Dungeon Stalker II The Web of Fate"
+    platform: "Atari 7800"
+    participants:
+      - name: "Maximus Games"
+        handle: "Maximus Games"
+        roles:
+          - "Developer"
+      - name: "Steve Engelhardt"
+        handle: "Atarius Maximus"
+        roles:
+          - "Developer"
+      - name: "Mike Saarna"
+        handle: "RevEng"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388522-dungeon-stalker-ii/"
+    listing_updated: "2026-05-03"
+  - title: "Ducks Away"
+    platform: "Atari 7800"
+    participants:
+      - name: "Blake Smith"
+        handle: "SmittyB"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/358950-ducks-away-wip/"
+    listing_updated: "2026-07-26"
+  - title: "Galactic Dragon Invaders"
+    platform: "Atari 7800"
+    participants:
+      - name: "ECDHE"
+        handle: "ecdhe"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386864-new-homebrew-galactic-dragon-invaders-wip/"
+    history:
+      - date: "2026-01-25"
+        status: "wip"
+    listing_updated: "2026-01-25"
+  - title: "Helrún"
+    platform: "Atari 7800"
+    participants:
+      - name: "kris_atari7800dev"
+        handle: "kris_atari7800dev"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389975-helr%C3%BAn-wip/"
+    history:
+      - date: "2026-06-05"
+        status: "wip"
+    listing_updated: "2026-06-05"
+  - title: "I Eye"
+    platform: "Atari 7800"
+    participants:
+      - name: "Karri Kaksonen"
+        handle: "karri"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392116-a-new-coach-complient-controller-selection-system-was-need-some-advice/#findComment-5874172"
+    history:
+      - date: "2026-08-14"
+        status: "completed"
+    listing_updated: "2026-08-15"
+  - title: "Kinetescape"
+    platform: "Atari 7800"
+    participants:
+      - name: "Brent Bouchard"
+        handle: "brentleobouchard"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/385559-kinetescape-game-test/"
+    history:
+      - date: "2026-07-16"
+        status: "wip"
+    notes:
+      - "Alternate Thread (https://forums.atariage.com/topic/382397-wanna-test-my-game-mechanics-demo/)"
+    listing_updated: "2026-07-16"
+  - title: "Legend of Nyomi 2, The"
+    platform: "Atari 7800"
+    participants:
+      - name: "Ecernosoft"
+        handle: "Ecernosoft"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/387227-the-legend-of-nyomi-2-now-playable/"
+    history:
+      - date: "2026-01-18"
+        status: "wip"
+    listing_updated: "2026-01-19"
+  - title: "Light Rain"
+    platform: "Atari 7800"
+    participants:
+      - name: "ECDHE"
+        handle: "ecdhe"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390326-new-homebrew-light-rain-wip/"
+    history:
+      - date: "2026-07-18"
+        status: "wip"
+    listing_updated: "2026-07-20"
+  - title: "MV Sports"
+    platform: "Atari 7800"
+    participants:
+      - name: "MuddyVision"
+        handle: "MuddyVision"
+        roles:
+          - "Developer"
+      - name: "Lewis Hill"
+        handle: "Muddyfunster"
+        roles:
+          - "Developer"
+      - name: "Zdeněk Eisenhammer"
+        handle: "pseudografx"
+        roles:
+          - "Music"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386622-mv-sports/"
+    listing_updated: "2026-02-03"
+  - title: "Naughty Boy"
+    platform: "Atari 7800"
+    participants:
+      - name: "20th St Arcade"
+        roles:
+          - "Developer"
+      - name: "Darryl Guenther"
+        handle: "darryl1970"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391698-naughty-boy/"
+    history:
+      - date: "2026-07-28"
+        status: "wip"
+    listing_updated: "2026-07-28"
+  - title: "Nigh"
+    platform: "Atari 7800"
+    participants:
+      - name: "8bitJones"
+        handle: "8bitJones"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/384283-project-nigh-hobby-project-and-saying-hello/"
+    history:
+      - date: "2026-05-02"
+        status: "completed"
+    listing_updated: "2026-05-04"
+  - title: "Ninjish Guy Perilous Adventure"
+    platform: "Atari 7800"
+    participants:
+      - name: "VHZC Games"
+        handle: "VHZC Games"
+        roles:
+          - "Developer"
+      - name: "Vladimir Zúñiga"
+        handle: "vhzc"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389839-ninjish-guy-perilous-adventure-wip/"
+    notes:
+      - "Complete rewrite of Ninjish Guy Perilous Island (https://forums.atariage.com/topic/323184-ninjish-guy-7800-perilous-island-wip/)"
+    listing_updated: "2026-08-02"
+  - title: "Paradise Island"
+    platform: "Atari 7800"
+    participants:
+      - name: "Karri Kaksonen"
+        handle: "karri"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386523-paradise-island/"
+    history:
+      - date: "2026-01-04"
+        status: "wip"
+    listing_updated: "2026-01-06"
+  - title: "Rogue 7800"
+    platform: "Atari 7800"
+    participants:
+      - name: "ECDHE"
+        handle: "ecdhe"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/380919-new-homebrew-game-rogue-7800-wip/"
+    history:
+      - date: "2026-02-08"
+        status: "wip"
+    listing_updated: "2026-02-08"
+  - title: "Slayin'"
+    platform: "Atari 7800"
+    participants:
+      - name: "Tom Schreiber"
+        handle: "pixellicker"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388738-homebrew-slayin/"
+    history:
+      - date: "2026-05-29"
+        status: "completed"
+    listing_updated: "2026-06-03"
+  - title: "Sopwith"
+    platform: "Atari 7800"
+    participants:
+      - name: "Thomas J. Rogers"
+        handle: "tjrtech"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/392179-atari-7800-sopwith/"
+    history:
+      - date: "2026-08-16"
+        status: "completed"
+    listing_updated: "2026-08-17"
+  - title: "Starflight The Lost Colony"
+    platform: "Atari 7800"
+    participants:
+      - name: "Jon Harbour"
+        handle: "Aeneas137"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389026-starflight-the-lost-colony-wip/#findComment-5814945"
+    history:
+      - date: "2026-04-03"
+        status: "wip"
+    listing_updated: "2026-04-05"
+  - title: "Super Mario Bros."
+    platform: "Atari 7800"
+    participants:
+      - name: "Eagle"
+        handle: "Eagle"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      homepage: "https://www.facebook.com/groups/394581030556700?multi_permalinks=28925066307081458"
+    history:
+      - date: "2026-08-11"
+        status: "completed"
+    notes:
+      - "Made using AI"
+    listing_updated: "2026-08-12"
+  - title: "\"Tapper\""
+    platform: "Atari 7800"
+    participants:
+      - name: "Anthony Quinlan"
+        handle: "TwentySixHundred"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      homepage: "https://www.youtube.com/watch?v=kod8akOmwKg"
+    history:
+      - date: "2026-03-24"
+        status: "completed"
+    listing_updated: "2026-04-08"
+  - title: "Time Pilot"
+    platform: "Atari 7800"
+    participants:
+      - name: "Eagle"
+        handle: "Eagle"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/383258-flashcart-for-7800/page/6/#findComment-5859769"
+    history:
+      - date: "2026-07-06"
+        status: "wip"
+    listing_updated: "2026-07-26"
+  - title: "Wee Ninja"
+    platform: "Atari 7800"
+    participants:
+      - name: "Paul Lay"
+        handle: "playsoft"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-7800-2026"
+    urls:
+      homepage: "https://www.youtube.com/watch?v=XI7vN3Yg8fA"
+    history:
+      - date: "2026-05-06"
+        status: "completed"
+    listing_updated: "2026-05-06"
+  - title: "Green Land"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Yastuna Games"
+        handle: "Yastuna Games"
+        roles:
+          - "Developer"
+      - name: "Frédéric Descharmes"
+        handle: "Fadest"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390368-green-land-physical-release/"
+    history:
+      - date: "2026-05-19"
+        status: "completed"
+      - date: "2026-05-19"
+        status: "physical_release"
+      - date: "2026-05-28"
+        status: "wip"
+      - date: "2026-06-01"
+        status: "physical_release"
+      - date: "2026-08-14"
+        status: "physical_release"
+    notes:
+      - "Previously named DaMaGe (https://fadest.itch.io/damage) / DaMaGe (https://fadest.itch.io/damage) was part of LynxJam 2025"
+      - "Alternate Thread (https://forums.atariage.com/topic/388553-lynx-high-score-club-of-march-play-a-new-game-green-land/)"
+    listing_updated: "2026-08-15"
+  - title: "Microvaders Caravan Edition"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Songbird Productions"
+        handle: "Songbird Productions"
+        roles:
+          - "Developer"
+      - name: "Dave Dies"
+        roles:
+          - "Code"
+      - name: "Carl Forhan"
+        handle: "Songbird"
+        roles:
+          - "Code"
+          - "Graphics"
+          - "Audio"
+      - name: "Alexander \"Ander Lex\" Grade"
+        handle: "agradeneu"
+        roles:
+          - "Graphics"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389436-announcing-microvaders-caravan-edition-for-the-atari-lynx/"
+    history:
+      - date: "2026-06-11"
+        status: "completed"
+      - date: "2026-06-17"
+        status: "completed"
+      - date: "2026-07-14"
+        status: "physical_release"
+    notes:
+      - "Previously Physically Released as Microvaders on 20241102 (https://forums.atariage.com/topic/328887-microvaders-for-atari-lynx/?do=findComment&comment=5560677) at eJagFest 2024 (https://ejagfest.de/european-jagfest-2024/?lang=en) and Microvaders Preview Edition on 20221015 (https://forums.atariage.com/topic/328887-microvaders-for-atari-lynx/?do=findComment&comment=5135163) at PRGE 2022 (https://forums.atariage.com/topic/328887-microvaders-for-atari-lynx/?do=findComment&comment=5135163)"
+    listing_updated: "2026-07-14"
+  - title: "RED - Against the Machines"
+    platform: "Atari Lynx"
+    publishers:
+      - "Côté Gamers"
+    participants:
+      - name: "Ancient World Computing"
+        handle: "Ancient World Computing"
+        roles:
+          - "Developer"
+      - name: "Alex Kraken"
+        handle: "LordKraken"
+        roles:
+          - "Code"
+      - name: "RayXambeR"
+        handle: "RayXambeR"
+        roles:
+          - "Music Composition"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/314649-lynxmas-2020-new-game-red/?do=findComment&comment=5355131"
+    history:
+      - date: "2025-07-04"
+        status: "completed"
+      - date: "2025-07-19"
+        status: "physical_release"
+      - date: "2025-11-29"
+        status: "physical_release"
+    notes:
+      - "Extension of WIP RED from LynXmas 2020 Game Jam (https://itch.io/jam/lynxmas2020) / Previously WIP Physically Released on LynxMas 2020 Compilation Cart (https://yastuna-games.com/en/atari-lynx/41-lynxmas-2020.html) / Physical Release in 2025"
+    listing_updated: "2026-07-13"
+  - title: "Wee Ninja"
+    platform: "Atari Lynx"
+    publishers:
+      - "Songbird"
+    participants:
+      - name: "Paul Lay"
+        handle: "playsoft"
+        roles:
+          - "Design"
+          - "Code"
+          - "Audio"
+      - name: "Carl Forhan"
+        handle: "Songbird"
+        roles:
+          - "Additional Code"
+          - "Music"
+          - "Graphics"
+      - name: "RB5200"
+        handle: "RB5200"
+        roles:
+          - "Original 5200 Print Layout & Content"
+    status: "completed"
+    physical_release: true
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388993-announcing-wee-ninja-for-the-atari-lynx/"
+    history:
+      - date: "2026-03-20"
+        status: "completed"
+      - date: "2026-03-25"
+        status: "physical_release"
+      - date: "2026-03-26"
+        status: "physical_release"
+      - date: "2026-04-24"
+        status: "physical_release"
+    listing_updated: "2026-04-02"
+  - title: "Awass"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Inufuto"
+        handle: "Inufuto"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      homepage: "http://inufuto.web.fc2.com/8bit/awass/#lynx"
+    history:
+      - date: "2026-01-31"
+        status: "completed"
+    notes:
+      - "Cross platform build of game"
+    listing_updated: "2026-02-04"
+  - title: "Handy Rogue"
+    platform: "Atari Lynx"
+    participants:
+      - name: "James Higgs"
+        handle: "jum"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388892-lynx-homebrew-handy-rogue/"
+    history:
+      - date: "2026-03-16"
+        status: "completed"
+  - title: "Impetus+ Mini"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Inufuto"
+        handle: "Inufuto"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      homepage: "http://inufuto.web.fc2.com/8bit/impetusp/#lynx"
+    history:
+      - date: "2025-12-07"
+        status: "completed"
+    notes:
+      - "Missed in 2025 / Cross platform build of game / Improved Version of Impetus Mini"
+    listing_updated: "2026-01-26"
+  - title: "SwordWork"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Inufuto"
+        handle: "Inufuto"
+        roles:
+          - "Developer"
+    status: "completed"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      homepage: "http://inufuto.web.fc2.com/8bit/sword/#lynx"
+    history:
+      - date: "2026-05-14"
+        status: "completed"
+    listing_updated: "2026-06-03"
+  - title: "5 Card Stud Poker"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Shawn Jefferson"
+        handle: "Shawn Jefferson"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389915-fujinet-5-card-stud-poker-for-lynx/"
+    notes:
+      - "Uses FujiNet & Crossplatform Play"
+    listing_updated: "2026-05-04"
+  - title: "Another World"
+    platform: "Atari Lynx"
+    participants:
+      - name: "pwwit1"
+        handle: "pwwit1"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391360-another-world-atari-lynx-teaser-video/"
+    history:
+      - date: "2026-07-06"
+        status: "wip"
+    listing_updated: "2026-07-08"
+  - title: "Cyber Pong VS"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Fabien Marlier"
+        handle: "Bob_63"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386186-pong2p-lynx-edition/"
+    history:
+      - date: "2026-04-04"
+        status: "completed"
+    notes:
+      - "Previously named Pong2P"
+    listing_updated: "2026-04-04"
+  - title: "Lynx Blast"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Bjoern Spruck"
+        handle: "sage"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/389303-8bit-hub-on-sale-over-50-off-through-april-8/#findComment-5822062"
+    history:
+      - date: "2026-04-12"
+        status: "wip"
+      - date: "2026-08-15"
+        status: "wip"
+    listing_updated: "2026-08-15"
+  - title: "MoNo"
+    platform: "Atari Lynx"
+    participants:
+      - name: "KanedaFr"
+        handle: "KanedaFr"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      itch: "https://kanedafr.itch.io/mono"
+    history:
+      - date: "2026-01-12"
+        status: "wip"
+    notes:
+      - "Part of LynxJam 2025 (https://itch.io/jam/lynxjam-2025)"
+    listing_updated: "2026-01-12"
+  - title: "Red Panda"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Yastuna Games"
+        handle: "Yastuna Games"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      homepage: "https://x.com/YastunaL/status/2062583829261345094"
+    history:
+      - date: "2026-06-04"
+        status: "completed"
+    listing_updated: "2026-06-04"
+  - title: "Sonic4Atari"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Giovanni De Sisto"
+        handle: "GIOVAZ82"
+        roles:
+          - "Developer"
+      - name: "Michał Szpilowski"
+        handle: "miker"
+        roles:
+          - "Music & SFX"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      homepage: "https://www.youtube.com/watch?v=UyBY8C_0O7k"
+    history:
+      - date: "2026-05-13"
+        status: "completed"
+    listing_updated: "2026-08-15"
+  - title: "Super Mario Bros."
+    platform: "Atari Lynx"
+    participants:
+      - name: "pwwit1"
+        handle: "pwwit1"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/388439-port-of-nes-super-mario-brothers/#findComment-5799870"
+    history:
+      - date: "2026-03-01"
+        status: "completed"
+    listing_updated: "2026-03-01"
+  - title: "Ultravore Zero"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Songbird Productions"
+        handle: "Songbird Productions"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/381566-ultravore-for-the-atari-lynx/"
+    history:
+      - date: "2026-08-25"
+        status: "completed"
+    notes:
+      - "Updated version of unreleased 1990's game by Beyond Games (https://en.wikipedia.org/wiki/Beyond_Games) / Previously Called Ultravore"
+    listing_updated: "2026-08-26"
+  - title: "Wizard of WASD"
+    platform: "Atari Lynx"
+    participants:
+      - name: "James Higgs"
+        handle: "jum"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/386681-lynx-homebrew-wizard-of-wasd/"
+    history:
+      - date: "2026-03-18"
+        status: "wip"
+    notes:
+      - "Alternative Thread (https://forums.atariage.com/topic/386088-llvm-mos-project-wizard-of-wasd/)"
+    listing_updated: "2026-03-18"
+  - title: "Wolfenstein 3D - The First Encounter (Shareware Version)"
+    platform: "Atari Lynx"
+    participants:
+      - name: "pwwit1"
+        handle: "pwwit1"
+        roles:
+          - "Developer"
+      - name: "Michał Szpilowski"
+        handle: "miker"
+        roles:
+          - "Title"
+          - "Main Menu Music"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/390838-wolfenstein-3d-shareware/"
+    history:
+      - date: "2026-06-27"
+        status: "wip"
+    listing_updated: "2026-06-30"
+  - title: "Wyvern Tales Gaiden"
+    platform: "Atari Lynx"
+    participants:
+      - name: "Bitmap Soft"
+        handle: "Bitmap Soft"
+        roles:
+          - "Developer"
+      - name: "Nomad Studio"
+        handle: "Nomad Studio"
+        roles:
+          - "Developer"
+      - name: "Jasper van Turnhout"
+        handle: "Ninjabba"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/344149-wyvern-tales-gaiden/"
+    history:
+      - date: "2026-02-03"
+        status: "completed"
+    listing_updated: "2026-02-03"
+  - title: "Zombi"
+    platform: "Atari Lynx"
+    participants:
+      - name: "AtariWave"
+        roles:
+          - "Developer"
+      - name: "Enrique Martos Kikems"
+        handle: "kikems"
+        roles:
+          - "Developer"
+    status: "wip"
+    physical_release: false
+    sources:
+      - "atariage-atarilynx-2026"
+    urls:
+      atariage: "https://forums.atariage.com/topic/391867-zombi-40th-anniversary-game-demo-for-silly-venture/"
+    history:
+      - date: "2026-08-02"
+        status: "wip"
+    notes:
+      - "Part of Silly Venture 2026 SE (https://sillyventure.eu/en/668-official-results-of-compos-at-sv-2k26-se)"
+    listing_updated: "2026-08-04"
