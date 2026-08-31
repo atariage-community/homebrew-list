@@ -142,6 +142,19 @@ function participantsHtml(devs) {
   }).join("<br>");
 }
 function participantsSearch(devs) { return asArray(devs).map(d=>typeof d === "string" ? d : [d.name,d.handle,...asArray(d.roles)].join(" ")).join(" "); }
+function playersHtml(game) {
+  const players=asArray(game.players);
+  return players.length ? players.map(escapeHtml).join(", ") : "—";
+}
+function accessoriesHtml(game) {
+  const acc = (game.accessories && typeof game.accessories === "object") ? game.accessories : {};
+  const required=asArray(acc.required), optional=asArray(acc.optional);
+  if(!required.length && !optional.length) return "—";
+  const parts=[];
+  if(required.length) parts.push(`Required: ${required.map(escapeHtml).join(", ")}`);
+  if(optional.length) parts.push(`Optional: ${optional.map(escapeHtml).join(", ")}`);
+  return parts.join("<br>");
+}
 function sourcesForGame(game) {
   return asArray(game.sources).map(id=>registry.sources.find(s=>s.id===id)).filter(Boolean);
 }
@@ -206,8 +219,8 @@ function renderTable() {
       <td class="title-cell">${titleHtml}${notes.length?`<div class="note-text">${notes.map(escapeHtml).join("<br>")}</div>`:""}${history.length?`<div class="history-text">${history.length} history entr${history.length===1?"y":"ies"}</div>`:""}</td>
       <td class="platform-cell"><div class="platform-list"><span class="platform-tag">${escapeHtml(g.platform)}</span></div></td>
       <td class="participants-cell">${participantsHtml(g.participants)}</td>
-      <td class="player-cell">${g.players.map(escapeHtml).join(", ")}</td>
-      <td class="accessories-cell">Required: ${g.accessories.required.map(escapeHtml).join(", ")}<br>Optional: ${g.accessories.optional?.map(escapeHtml).join(", ")}</td>
+      <td class="player-cell">${playersHtml(g)}</td>
+      <td class="accessories-cell">${accessoriesHtml(g)}</td>
       <td class="rom-cell">${formatBytes(g.rom_size)}</td>
       <td class="status-cell"><span class="tag ${statusClass(g.status)}">${escapeHtml(statusLabel(g.status))}</span></td>
       <td>${g.physical_release?'<span class="release-yes">Yes</span>':'<span class="release-no">No</span>'}</td>
