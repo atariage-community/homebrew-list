@@ -107,7 +107,7 @@ games:
       optional: []
 
     status: completed
-    physical_release: true
+    physical_release: false
 
     urls:
       homepage: "http://inufuto.web.fc2.com/8bit/awass/"
