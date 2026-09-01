@@ -84,6 +84,7 @@
         <input id="search-input" class="search-input" type="search" placeholder="Search title, participants, handle, platform, status..." autocomplete="off">
       </div>
       <div class="filter-group">
+        <select id="rom-size-filter" class="select-control"><option value="ALL">All ROM Sizes</option></select>
         <select id="platform-filter" class="select-control"><option value="ALL">All Platforms</option></select>
         <select id="status-filter" class="select-control"><option value="ALL">All Status</option></select>
         <select id="release-filter" class="select-control">
@@ -172,11 +173,16 @@ function linksHtml(game) {
   return `<div class="link-list">${all.map(l=>`<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`).join("")}</div>`;
 }
 function populateFilters() {
-  const platforms=new Set(), statuses=new Set();
-  registry.games.forEach(g=>{asArray(g.platform).forEach(p=>platforms.add(p)); if(g.status)statuses.add(String(g.status).toLowerCase());});
-  const pf=document.getElementById("platform-filter"), sf=document.getElementById("status-filter");
+  const platforms=new Set(), statuses=new Set(), rom_sizes=new Set();
+  registry.games.forEach(g=>{
+    asArray(g.platform).forEach(p=>platforms.add(p)); 
+    if(g.status)statuses.add(String(g.status).toLowerCase());
+    if(g.rom_size)rom_sizes.add(String(g.rom_size).toLowerCase());
+  });
+  const pf=document.getElementById("platform-filter"), sf=document.getElementById("status-filter"), rf=document.getElementById("rom-size-filter");
   [...platforms].sort().forEach(p=>{const o=document.createElement("option");o.value=p;o.textContent=p;pf.appendChild(o);});
   [...statuses].sort().forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=statusLabel(s);sf.appendChild(o);});
+  [...rom_sizes].sort().forEach(r=>{const o=document.createElement("option");o.value=r;o.textContent=formatBytes(r);rf.appendChild(o);});
 }
 function populateStats() {
   const games=registry.games, platforms=new Set();
@@ -195,11 +201,12 @@ function populateMetadata() {
 }
 function renderTable() {
   const q=document.getElementById("search-input").value.trim().toLowerCase();
-  const pf=document.getElementById("platform-filter").value, sf=document.getElementById("status-filter").value, rf=document.getElementById("release-filter").value;
+  const pf=document.getElementById("platform-filter").value, sf=document.getElementById("status-filter").value, rf=document.getElementById("release-filter").value, rsf=document.getElementById("rom-size-filter").value;
   const filtered=registry.games.filter(g=>{
-    const platforms=asArray(g.platform), status=String(g.status||"").toLowerCase(), physical=Boolean(g.physical_release);
+    const platforms=asArray(g.platform), status=String(g.status||"").toLowerCase(), physical=Boolean(g.physical_release), rom_size=g.rom_size;
     if(pf!=="ALL" && !platforms.includes(pf)) return false;
     if(sf!=="ALL" && status!==sf) return false;
+    if(rsf!=="ALL" && rom_size!=rsf) return false;
     if(rf==="YES" && !physical) return false;
     if(rf==="NO" && physical) return false;
     if(q){
@@ -246,6 +253,7 @@ async function initApp(){
 }
 document.getElementById("search-input").addEventListener("input",renderTable);
 document.getElementById("platform-filter").addEventListener("change",renderTable);
+document.getElementById("rom-size-filter").addEventListener("change",renderTable);
 document.getElementById("status-filter").addEventListener("change",renderTable);
 document.getElementById("release-filter").addEventListener("change",renderTable);
 initApp();
