@@ -4111,23 +4111,12 @@ games:
           - "Manual Text"
           - "In-Game Artwork"
           - "Sound Effects"
-      - name: "Zephyr Salz"
-        roles:
-          - "Art for Manual"
-          - "Label and cover"
-          - "Music"
-      - name: "Zephyr Pocock"
+      - name: "Zephyr [né Salz] Pocock"
         handle: "Zephyr Pocock"
         roles:
-          - "Art for Manual"
-          - "Label and cover"
+          - "Art for Manual, label and cover"
           - "Music"
-      - name: "Cover Artwork"
-        roles:
-          - "Developer"
-      - name: "Title Theme Music)"
-        roles:
-          - "Developer"
+          - "Additional In-Game Artwork"
     rom_size: 65536
     status: "completed"
     physical_release: true
@@ -4137,6 +4126,7 @@ games:
       - "atariage-2600-2026"
     urls:
       atariage: "https://forums.atariage.com/topic/322957-grizzards-%E2%80%94-turn-based-rpg/"
+      grizzards: "https://grizzards.com/"
     history:
       - date: "2021-08-31"
         status: "wip"
@@ -4150,7 +4140,7 @@ games:
         status: "completed"
     notes:
       - "Completed & Physical Release in 2022"
-    listing_updated: "2026-02-09"
+    listing_updated: "2026-09-02"
   - title: "Guard"
     platform: "Atari 2600"
     participants:
