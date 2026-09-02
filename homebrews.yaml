@@ -21076,6 +21076,36 @@ games:
       - date: "2026-05-19"
         status: "completed"
     listing_updated: "2026-06-08"
+  - title: "Phantasia"
+    platform: "Atari 7800"
+    publishers:
+      - "AtariAge"
+    participants:
+      - name: "Bruce-Robert Pocock"
+        handle: "brpocock@star-hope.org"
+        roles:
+          - "Programming"
+          - "Manual Text"
+          - "In-Game Artwork"
+          - "Sound Effects"
+      - name: "Zephyr [né Salz] Pocock"
+        handle: "Zephyr Pocock"
+        roles:
+          - "Art for Manual, label and cover"
+          - "Music"
+          - "Game and character art"
+    rom_size: 1048576
+    status: "wip"
+    physical_release: false
+    sources:
+    urls:
+      atariage: "https://forums.atariage.com/topic/343031-phantasia-atari-7800-arpg/"
+    history:
+      - date: "2022-10-30"
+        status: "wip"
+    notes:
+      - "wip"
+    listing_updated: "2026-02-09"
   - title: "Phantom Cruiser"
     platform: "Atari 2600"
     participants:
