@@ -190,6 +190,10 @@ sources:
     name: "Atari TT-Falcon Homebrew Games 2026"
     platform: "Atari TT-Falcon"
     urls: []
+  - id: "atariage-7800-unknown"
+    name: "Trebor-7800-list Homebrew Games"
+    platform: "Trebor-7800-list"
+    urls: []
 games:
   - title: "1 vs 1 Baseball"
     platform: "Atari 2600"
@@ -46967,10 +46971,10 @@ games:
       - "Part of LynxJam 2023 (https://forums.atariage.com/topic/356805-lynxjam-2023-invitation/) / Previously named \"Untitled Sword Shooter\""
       - "Completed in 2023"
     listing_updated: "2024-02-13"
-  - title: "Scooterni"
+  - title: "Scooternia"
     platform: "Atari Lynx"
     participants:
-      - name: "a by Alex Kraken"
+      - name: "Alex Kraken"
         handle: "LordKraken"
         roles:
           - "Developer"
@@ -48115,10 +48119,10 @@ games:
     notes:
       - "Part of LynxJam 2024 (https://forums.atariage.com/topic/375989-lynxjam-2024-maximum-destruction/)"
     listing_updated: "2024-12-16"
-  - title: "B"
+  - title: "Bubbler"
     platform: "Atari Lynx"
     participants:
-      - name: "ubbler by KanedaFr"
+      - name: "KanedaFr"
         handle: "KanedaFr"
         roles:
           - "Developer"
